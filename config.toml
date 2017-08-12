@@ -9,7 +9,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = "joselabra"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-645569-4"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
