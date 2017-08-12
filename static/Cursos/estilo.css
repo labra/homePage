@@ -1,0 +1,32 @@
+body {
+ font-family: 'PT Sans Narrow',Calibri,'Myriad Pro',Tahoma,Arial;
+ background: rgb(254, 249, 246);
+ text-shadow: 1px 1px gray;
+}
+
+footer {
+ bottom: 0;
+ text-align: right;
+}
+
+header {
+ padding: 0.1em;
+ background-color: rgb(80, 122, 170);
+ color: white;
+ border-radius: 20px;
+ text-align: center;
+}
+
+header a {
+ color: white;
+ text-decoration: none;
+}
+
+header a:hover {
+ color: yellow;
+}
+
+.presentaciones ul {
+ list-style: none;
+ text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}

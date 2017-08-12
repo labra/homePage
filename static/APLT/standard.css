@@ -1,0 +1,92 @@
+/* My first Style Sheet
+	Created by Jose E. Labra G. (2-8-99)
+	http://lsi.uniovi.es/~labra
+ */
+
+address {	text-align: right;
+		font-size: small ;
+		font-family: "Flemish Script", serif;
+		color: maroon; 
+	}
+
+body { 		margin-left: 8% ; 
+		margin-right:8% ; 
+		background:  white;
+		color: black;
+		font-family: Verdana, sans-serif;
+	}
+
+p { 		text-indent: 2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 8% ; 
+		margin-right: 8% ;
+		font-family: Verdana, sans-serif;
+	}
+
+h1.inTable {	margin-left: 0%;
+	        color: 	    rgb(0,0,153) ;
+ 	   }
+
+p.note {	text-indent: 0em;
+		background: rgb(255,255,204) ; 
+		color: rgb(10,10,50);
+		padding: 1em ;
+		border: none ;
+ 	}
+
+h1 { 	margin-left: -6% ; 
+		font-family: Garamond, serif;
+	}
+
+h1.header { 	color: 	    rgb(0,0,153) ;
+		background: white ; 
+		font-size: 250%; 
+	}
+
+h2 {	margin-left: -4% ;
+	color: 	    rgb(0,10,157) ; 
+   }
+
+h3,h4,h5,h6 { 	margin-left: -2%; 
+	} 
+
+div.center { 	text-align: center; 
+	}
+
+div.right  { 	text-align: right; 
+	}
+
+a.code  { 	font-family: "Courier New", monospace; 
+	}
+
+a.emph  { font-style: italic}
+
+
+dl {	margin-left: 8%  ; 
+		margin-right: 8% ;
+	}
+
+dt	{ margin-top: 2em;
+	  color: rgb(0,0,20) ;
+	}
+
+table.toc  { margin-top: 2em
+	   ; background: rgb(255,255,204)
+	   ; color: rgb(0,0,40)
+	   ; border: solid 
+	   ; text-align: left
+	   ; margin: 2em
+       	   ; border-collapse: separate
+	   ; border: outset 3pt
+	   ; border-spacing: 5pt
+           }
+
+table.bottom  { background: white; 
+                color: black;
+		border: solid;
+	        text-align: center;
+}
+
+
+

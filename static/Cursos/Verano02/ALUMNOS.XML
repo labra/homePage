@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="alumnos.xsl"?>
+<alumnos>
+	<alum dni="53544942" nombre="Sonia" apell="Álvarez Jalón" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="53532327" nombre="Emilio José" apell="Amo Rancaño" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="9414350" nombre="María Begoña" apell="Arboleya Astorquiza" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="9797307" nombre="Ricardo" apell="Cadenas García" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="10882744" nombre="Iván" apell="Carvajal Juanes" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="53527225" nombre="María" apell="Corujo del Valle" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="10905555" nombre="César" apell="Espeso Expósito" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="71642662" nombre="Raúl" apell="Fernández González" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="10906751" nombre="Iván" apell="Fernández Orea" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="71890078" nombre="Gloria Alexia" apell="García Gutiérrez" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="71636970" nombre="Rafael" apell="González González" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="71877167" nombre="Pablo" apell="González Guardado" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="71889569" nombre="Ignacio José" apell="Gutiérrez Menéndez" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="9439454" nombre="Jorge" apell="López Fernández" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="9432463" nombre="Raúl" apell="Martín Rodríguez" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="76940435" nombre="Laura" apell="Méndez González" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="53534342" nombre="Rubén" apell="Menéndez Santurio" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="44431635" nombre="Juan José" apell="Parada Vales" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="10900395" nombre="Pablo" apell="Pérez Díaz" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="10890985" nombre="Mario" apell="Rodríguez Boya" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="71875361" nombre="Cristina" apell="Rodríguez Menéndez" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="76958789" nombre="Iván" apell="Tarno Fonseca" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="53525495" nombre="Alberto" apell="Tuero Abarrio" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="9417736" nombre="Tatiana" apell="Viejo Álvarez" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+	<alum dni="53536808" nombre="René" apell="Wegmann García" email="No disponible" tlfno="" pagina="noDisponible.html" nota="Sin asignar" />
+</alumnos>

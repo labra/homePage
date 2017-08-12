@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="curso.xsl"?>
+<!DOCTYPE curso [
+<!ELEMENT curso (direccion,
+                 fechas,
+                 reflugar,plazas,derechos,requisitos,tipo,objetivos,programa,evaluacion,alumnos,enlaces)>
+<!ATTLIST curso titulo CDATA #REQUIRED>
+<!ELEMENT direccion  EMPTY>
+<!ATTLIST direccion  ref NMTOKEN #REQUIRED>
+<!ELEMENT fechas     (#PCDATA)>
+<!ELEMENT reflugar   EMPTY>
+<!ATTLIST reflugar   ref NMTOKEN #REQUIRED>
+<!ELEMENT plazas     (#PCDATA)>
+<!ELEMENT derechos   (#PCDATA)>
+<!ELEMENT requisitos (#PCDATA)>
+<!ELEMENT tipo       (#PCDATA)>
+<!ELEMENT objetivos  (#PCDATA|p)*>
+<!ENTITY programa   SYSTEM "programa.xml">
+<!ENTITY % programaDTD SYSTEM "programa.dtd">
+%programaDTD;
+<!ELEMENT evaluacion (#PCDATA|p|ul)*>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT ul (li*)>
+<!ELEMENT li (#PCDATA)>
+<!ENTITY alumnos    SYSTEM "alumnos.xml">
+<!ENTITY % alumnosDTD SYSTEM "alumnos.dtd">
+%alumnosDTD;
+<!ENTITY enlaces    SYSTEM "enlaces.xml">
+<!ENTITY % enlacesDTD SYSTEM "enlaces.dtd">
+%enlacesDTD;
+]>
+<curso titulo="Tecnologías XML para la estructuración del conocimiento en Internet">
+ <direccion ref="labra" />
+ <fechas>22 al 26 de Julio de 2002</fechas>
+ <reflugar ref="euitio" />
+ <plazas>25</plazas>
+ <derechos>167,14</derechos>
+ <requisitos>Conocimientos de informática y programación</requisitos>
+ <tipo>Homologable por 4.5 créditos de libre configuración</tipo>
+ <objetivos>
+		<p>Se espera que al finalizar el curso, el alumno sea capaz de:</p>
+		<ul>
+			<li>Utilizar el lenguaje HTML para crear páginas Web
+ </li>
+			<li>Utilizar el lenguaje HTML y las hojas de estilo CSS para crear páginas Web
+  fácilmente mantenibles</li>
+			<li>Utilizar XML para representar información concreta</li>
+			<li>Utilizar XSLT para transformar información representada en XML</li>
+			<li>Conocer vocabularios basados en XML</li>
+			<li>Conocer el lenguaje R</li>
+		</ul>
+	</objetivos>
+&programa;
+<evaluacion>
+		<p>
+ La evaluación del curso se desarrollará mediante un trabajo 
+ práctico que consistirá en la realización de un pequeño sitio Web utilizando 
+ algunas de las tecnologías XML presentadas en el curso. 
+</p>
+<p> En el sitio Web se deben incluir los siguientes enlaces
+  obligatorios</p>
+		<ul>
+			<li>Descripción</li>
+		</ul>
+	</evaluacion>
+&alumnos;
+&enlaces;
+</curso>
+
+
+

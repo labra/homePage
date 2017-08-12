@@ -1,0 +1,6 @@
+<!ELEMENT enlaces (enlace*)>
+<!ELEMENT enlace EMPTY>
+<!ATTLIST enlace href CDATA #REQUIRED
+                 txt  CDATA #REQUIRED
+                 comm CDATA #IMPLIED>
+

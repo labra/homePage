@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="curso.xsl"?>
+<!DOCTYPE curso [
+<!ELEMENT curso (direccion,
+                 fechas,
+                 reflugar,plazas,requisitos,tipo,objetivos,programa,evaluacion,alumnos,enlaces)>
+<!ATTLIST curso titulo CDATA #REQUIRED>
+<!ELEMENT direccion  EMPTY>
+<!ATTLIST direccion  ref NMTOKEN #REQUIRED>
+<!ELEMENT fechas     (#PCDATA)>
+<!ELEMENT reflugar   EMPTY>
+<!ATTLIST reflugar   ref NMTOKEN #REQUIRED>
+<!ELEMENT plazas     (#PCDATA)>
+<!ELEMENT derechos   (#PCDATA)>
+<!ELEMENT requisitos (#PCDATA)>
+<!ELEMENT tipo       (#PCDATA)>
+<!ELEMENT objetivos  (#PCDATA|p)*>
+<!ENTITY programa   SYSTEM "programa.xml">
+<!ENTITY % programaDTD SYSTEM "programa.dtd">
+%programaDTD;
+<!ELEMENT evaluacion (#PCDATA|p|ul)*>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT ul (li*)>
+<!ELEMENT li (#PCDATA)>
+<!ENTITY alumnos    SYSTEM "alumnos.xml">
+<!ENTITY % alumnosDTD SYSTEM "alumnos.dtd">
+%alumnosDTD;
+<!ENTITY enlaces    SYSTEM "enlaces.xml">
+<!ENTITY % enlacesDTD SYSTEM "enlaces.dtd">
+%enlacesDTD;
+]>
+<curso titulo="XML, Servicios Web y Web Semántica">
+ <direccion ref="labra" />
+ <fechas>12 al 26 de Marzo de 2003</fechas>
+ <reflugar ref="euitio" />
+ <plazas>25</plazas>
+ <requisitos>Conocimientos de informática y programación</requisitos>
+ <tipo>Homologable por 4.5 créditos de libre configuración</tipo>
+ <objetivos>
+	<p>Se espera que al finalizar el curso, el alumno sea capaz de:</p>
+	<ul>
+	 <li>Utilizar el lenguaje HTML y las hojas de estilo CSS 
+      para crear páginas Web fácilmente mantenibles</li>
+      <li>Utilizar el lenguaje XML para representar información concreta</li>
+      <li>Utilizar el lenguaje XSLT para transformar información representada en XML</li>
+      <li>Conocer vocabularios específicos basados en XML</li>
+      <li>Desarrollar programas mediante una arquitectura basada en servicios Web</li>
+      <li>Conocer el lenguaje RDF que facilita la creación de la Web semántica</li>
+      </ul>
+</objetivos>
+&programa;
+<evaluacion>
+<p>
+ La evaluación del curso se desarrollará mediante la realización de una página Web
+ que se construirá utilizando las tecnologías presentadas en el curso.
+</p>
+<p> Se deben incluir los siguientes enlaces obligatorios:
+</p>
+<ul>
+<li>Información. Enlace a información en HTML generada a partir de documentos XML.
+     Opcionalmente, se puede incluir otras tecnologías dinámicas 
+     (servicios Web, acceso a bases de datos, etc.)  </li>
+<li>Código Fuente. Incluir el código fuente en un fichero ZIP comprimido. Añadir un fichero "readme.txt"
+    que describa brevemente las tecnologías empleadas</li>
+<li>Trabajo teórico. Realizar un pequeño trabajo (no más de 5 hojas) sobre alguna tecnología
+   o vocabulario XML relacionado con el curso. Puede incluirse en formato PDF
+</li>
+</ul>
+<p>La página debe finalizarse antes del 22 de Abril. 
+A partir de dicho día comenzará el proceso de evaluación. 
+Si la página no está accesible, la nota del alumno será "NO PRESENTADO".
+</p>
+<p>
+Las notas podrán consultarse a través de Internet de forma individual 
+en la dirección indicada en el apartado alumnos. 
+</p>
+</evaluacion>
+&alumnos;
+&enlaces;
+</curso>
+
+
+

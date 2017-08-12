@@ -1,0 +1,80 @@
+
+html { }
+
+body {	
+ background:  white;
+ color: black;
+ font-family: sans-serif;
+ height: 100%;
+}
+
+#cont {
+ font-family : sans-serif;
+}
+
+li {		
+  list-style: none;
+}
+
+h1 { 
+ font-family: sans-serif ;
+ color: rgb(70,130,110);
+}
+
+h2 { 
+ color: rgb(70,100,80);
+}
+
+h3 { 
+ color: rgb(70,100,80);
+}
+
+
+span.Name { 
+ font-style: italic; 
+ color: rgb(70,100,90); 
+}
+span.Name a { 
+ font-style: italic; 
+ color: rgb(70,100,90); 
+}
+span.Contents { }
+
+p.note { text-indent: 2em; }
+
+address {	
+ margin-top: 5em;
+ text-align: right;
+ font-size: x-small ;
+ font-family: "Flemish Script", serif;
+ color: maroon; 
+}
+
+/* These definitions have been borrowed from: http://www.responsivegridsystem.com/calculator/ */
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	text-align: center;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 31%; }
+.span_2_of_3 { width: 31%; }
+.span_1_of_3 { width: 31%; }
+

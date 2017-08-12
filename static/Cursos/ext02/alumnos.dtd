@@ -1,0 +1,6 @@
+<!ELEMENT alumnos (alum*)>
+<!ELEMENT alum EMPTY>
+<!ATTLIST alum dni   CDATA #REQUIRED
+               apell CDATA #REQUIRED
+               nombre CDATA #REQUIRED>
+

@@ -1,0 +1,82 @@
+/* My first Style Sheet
+	Created by Jose E. Labra G. (2-8-99)
+	http://lsi.uniovi.es/~labra
+ */
+
+address {	text-align: right;
+		font-size: small ;
+		font-family: "Flemish Script", serif;
+		color: maroon; 
+	}
+
+body { 		margin-left: 8% ; 
+		margin-right:8% ; 
+		background:  white;
+		color: black;
+		font-family: Verdana, sans-serif;
+	}
+
+p { 		text-indent: 2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		margin-left: 8% ; 
+		margin-right: 8% ;
+		font-family: Verdana, sans-serif;
+	}
+
+p.note {	text-indent: 0em;
+		background: rgb(255,255,204) ; 
+		color: rgb(10,10,50);
+		padding: 1em ;
+		border: none ;
+ 	}
+
+h1,h2 { color: rgb(0,100,100);
+      }
+
+h1.inTable { color: rgb(0,100,100) ;
+	     background: white;
+	     text-align: right;
+	     font-size: smaller;
+           }
+
+h1.header { 	color: 	    rgb(250,250,250) ;
+		background: white ; 
+	}
+
+div.center { 	text-align: center; 
+	}
+
+div.right  { 	text-align: right; 
+	}
+
+a.code  { 	font-family: "Courier New", monospace; 
+	}
+
+a.emph  { font-style: italic}
+
+
+dl {	margin-left: 8%  ; 
+		margin-right: 8% ;
+	}
+
+dt	{ margin-top: 2em;
+	  color: rgb(0,0,20) ;
+	}
+
+table.toc  { background: rgb(235,225,205); 
+             color: rgb(0,0,40);
+	     border: solid; 
+	     text-align: center;
+	     margin: 2em;
+	     font-size: smaller;
+}
+
+table.bottom  { background: white; 
+                color: black;
+		border: solid;
+	        text-align: center;
+}
+
+
+

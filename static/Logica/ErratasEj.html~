@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//ES"
+"http://www.w3.org/TR/REC-html40/transitional.dtd">
+
+<HTML>
+<HEAD>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="Author" content="Jose Emilio Labra Gayo">
+		<link rel="stylesheet" href="../myStyle.css">
+		<TITLE>L&oacute;gica </TITLE>
+</HEAD>
+
+<BODY>
+<H1 class="header">L&oacute;gica</H1>
+<h2><em>Profesores:</em> 
+   <A HREF="../Welcome.html">Jose Emilio Labra Gayo</A>,
+   <a href="http://www.uniovi.es/~oviedo3/arturop">Jes&uacute;s Arturo P&eacute;rez D&iacute;az</a>
+</h2>
+
+<P>Asignatura del plan nuevo de la <A HREF="http://www15.uniovi.es/"><I>Escuela Universitaria de Inform&aacute;tica</I></A> en la <A HREF="http://www3.uniovi.es/">Universidad de Oviedo</A>. <BR>
+&nbsp; </P>
+<TABLE>
+<TR>
+<TD>
+<UL>
+<LI><A HREF="Prog9900.html">Programa</A> </LI>
+<li><a href="#Apuntes">Apuntes</a> </li>
+<li><a href="#Software">Software</a> </li>
+<LI><A HREF="#Estadisticas">Estad&iacute;sticas</A> </LI>
+</td>
+<TD>
+<LI><A HREF="LogiCom.html">Comentarios</A> </LI>
+<LI><A HREF="#MasInfo">M&aacute;s Informaci&oacute;n</A> </LI>
+<LI><A HREF="#Sugerencias">Sugerencias</A> </UL>
+</TD>
+</TR>
+</TABLE>
+
+<H3><A NAME="Apuntes">Apuntes</A></H3>
+<ul>
+ <li><i><a href="http://lsi.uniovi.es/~labra/FTP/Examenes.pdf">
+	Ejercicios de L&oacute;gica Inform&aacute;tica</a></i>. 
+	Jose E. Labra G., Ana I. Fern&aacute;ndez M. 
+	Cuaderno Did&aacute;ctico
+	Num. 9, Ed. Servitec, ISBN: 84-8416-357-1, Oct. 1998 <br>
+	<a href="ErratasEj.html">
+	   Lista de erratas de la Edici&oacute;n "Septiembre 2000"
+	</a>
+ </li>
+ <li><i><a href="http://lsi.uniovi.es/~labra/FTP/LPROP.pdf">
+	L&oacute;gica Proposicional para Inform&aacute;tica</a></i>.
+	Jose E. Labra G., Ana I. Fern&aacute;ndez M. Cuaderno
+	Did&aacute;ctico Num. 12, Ed. Servitec, ISBN:
+	84-8416-613-9, Oct. 1998
+</li>
+<li> <a href="http://lsi.uniovi.es/~labra/FTP/PLPura.pdf">
+                Programaci&oacute;n L&oacute;gica Pura (Transparencias de una Lecci&oacute;n)
+		</a></li> 
+<li>    <i><a href="http://lsi.uniovi.es/~labra/FTP/Prolog.pdf">
+	Programaci&oacute;n Pr&aacute;ctica en Prolog</a></i> 
+	J. E. Labra G. Cuaderno Did&aacute;ctico Num. 13, 
+	Ed. Servitec,
+	ISBN: 84-8416-612-0, Nov. 1998
+</li>
+
+</ul>
+
+
+<H3><A NAME="Software">Software</A></H3>
+<ul>
+<li> <a href="http://www.euitio.uniovi.es/cgi-bin/plf/simplify.cgi">
+     CGI Simplificador de funciones</a> </li>
+<li> <a href="http://www.swi.psy.uva.nl/projects/SWI-Prolog/download.html">
+    SWI Prolog</a> </li>
+</ul>
+
+
+<H3><A NAME="Estadisticas"><A NAME="Programa"><A NAME="Objetivos"></A></A></A>Estad&iacute;sticas</H3>
+<P>Resumen estad&iacute;stico en valores absolutos</P>
+
+<TABLE>
+<TR>
+<TD COLSPAN=2 ROWSPAN=2> </TD>
+<TD COLSPAN=3> Junio </TD>
+<TD COLSPAN=3> Septiembre </TD>
+<TD COLSPAN=3> Junio + Septiembre </TD>
+</TR>
+<TR>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+93-94</TD>
+<TD>
+Gesti&oacute;n</TD>
+<TD>82</TD>
+<TD>51</TD>
+<TD>48</TD>
+<TD>29</TD>
+<TD>23</TD>
+<TD>46</TD>
+<TD>1</TD>
+<TD>2</TD>
+<TD>0</TD>
+</TR>
+<TR>
+<TD>Sistemas</TD>
+<TD>90</TD>
+<TD>39></TD>
+<TD>42></TD>
+<TD>17</TD>
+<TD>25></TD>
+<TD>39></TD>
+<TD>2</TD>
+<TD>0</TD>
+<TD>1</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2"> 94-95
+</FONT>
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+61
+</TD>
+<TD>
+54
+</TD>
+<TD>
+46
+</TD>
+<TD>
+25
+</TD>
+<TD>
+25
+</TD>
+<TD>
+50
+</TD>
+<TD>
+3
+</TD>
+<TD>
+1
+</TD>
+<TD>
+1
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+78
+</TD>
+<TD>
+40
+</TD>
+<TD>
+47
+</TD>
+<TD>
+21
+</TD>
+<TD>
+16
+</TD>
+<TD>
+48
+</TD>
+<TD>
+2
+</TD>
+<TD>
+6
+</TD>
+<TD>
+2
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+95-96
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+50
+</TD>
+<TD>
+57
+</TD>
+<TD>
+38
+</TD>
+<TD>
+14
+</TD>
+<TD>
+27
+</TD>
+<TD>
+52
+</TD>
+<TD>
+3
+</TD>
+<TD>
+4
+</TD>
+<TD>
+2
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</FONT>
+</TD>
+<TD>
+75
+</TD>
+<TD>
+33
+</TD>
+<TD>
+45
+</TD>
+<TD>
+12
+</TD>
+<TD>
+16
+</TD>
+<TD>
+49
+</TD>
+<TD>
+2
+</TD>
+<TD>
+3
+</TD>
+<TD>
+0
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+96-97
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+69
+</TD>
+<TD>
+48
+</TD>
+<TD>
+45
+</TD>
+<TD>
+19
+</TD>
+<TD>
+19
+</TD>
+<TD>
+49
+</TD>
+<TD>
+3
+</TD>
+<TD>
+2
+</TD>
+<TD>
+1
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+75
+</TD>
+<TD>
+46
+</TD>
+<TD>
+28
+</TD>
+<TD>
+14
+</TD>
+<TD>
+20
+</TD>
+<TD>
+35
+</TD>
+<TD>
+7
+</TD>
+<TD>
+0
+</TD>
+<TD>
+2
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+97-98
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+37
+</TD>
+<TD>
+72
+</TD>
+<TD>
+49
+</TD>
+<TD>
+30
+</TD>
+<TD>
+36
+</TD>
+<TD>
+52
+</TD>
+<TD>
+3
+</TD>
+<TD>
+2
+</TD>
+<TD>
+3
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+61
+</TD>
+<TD>
+63
+</TD>
+<TD>
+54
+</TD>
+<TD>
+31
+</TD>
+<TD>
+28
+</TD>
+<TD>
+54
+</TD>
+<TD>
+4
+</TD>
+<TD>
+3
+</TD>
+<TD>
+3
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+98-99
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+49
+</TD>
+<TD>
+62
+</TD>
+<TD>
+54
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+93
+</TD>
+<TD>
+27
+</TD>
+<TD>
+49
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+</TR>
+</TABLE>
+
+<P>Resumen estad&iacute;stico en porcentajes</P>
+<TABLE>
+<TR>
+<TD COLSPAN=2 ROWSPAN=2> </TD>
+<TD COLSPAN=3> Junio </TD>
+<TD COLSPAN=3> Septiembre </TD>
+<TD COLSPAN=3> Junio + Septiembre </TD>
+</TR>
+<TR>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+</TR>
+<TR><TD ROWSPAN=2> 93-94 </TD>
+<TD Gesti&oacute;n </TD>
+<TD>
+45%
+</TD>
+<TD>
+29%
+</TD>
+<TD>
+26%
+</TD>
+<TD>
+30%
+</TD>
+<TD>
+23%
+</TD>
+<TD>
+47%
+</TD>
+<TD>
+62%
+</TD>
+<TD>
+13%
+</TD>
+<TD>
+25%
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+52%
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+21%
+</TD>
+<TD>
+31%
+</TD>
+<TD>
+48%
+</TD>
+<TD>
+62%
+</TD>
+<TD>
+15%
+</TD>
+<TD>
+23%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+94-95
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+39%
+</TD>
+<TD>
+33%
+</TD>
+<TD>
+28%
+</TD>
+<TD>
+25%
+</TD>
+<TD>
+25%
+</TD>
+<TD>
+50%
+</FONT>
+</TD>
+<TD>
+54%
+</TD>
+<TD>
+15%
+</TD>
+<TD>
+31%
+</TD>
+</TR>
+<TR>
+<TD> 
+Sistemas
+</TD>
+<TD>
+48%
+</FONT>
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+28%
+</TD>
+<TD>
+25%
+</FONT>
+</TD>
+<TD>
+19%
+</TD>
+<TD>
+56%
+</TD>
+<TD>
+60%
+</TD>
+<TD>
+10%
+</TD>
+<TD>
+29%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+95-96
+</TD>
+<TD>
+Gesti&oacute;n
+</FONT>
+</TD>
+<TD>
+35%
+</TD>
+<TD>
+39%
+</TD>
+<TD>
+26%
+</TD>
+<TD>
+16%
+</TD>
+<TD>
+29%
+</TD>
+<TD>
+55%
+</TD>
+<TD>
+ WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">45%</FONT>
+</TD>
+<TD>
+18%
+</FONT>
+</TD>
+<TD>
+</TD>
+</TR>
+<TR><TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Sistemas</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">50%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">21%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">29%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">16%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">21%</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">63%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">57%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">10%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">32%</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" ROWSPAN=2>
+<FONT SIZE=2><P ALIGN="CENTER">96-97</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Gesti&oacute;n</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">42%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">30%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">28%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">22%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">22%</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">56%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">55%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">13%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">31%</FONT></TD>
+</TR>
+<TR><TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Sistemas</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">50%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">31%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">19%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">20%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">29%</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">51%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">60%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">13%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">23%</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" ROWSPAN=2>
+<FONT SIZE=2><P ALIGN="CENTER">97-98</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Gesti&oacute;n</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">24%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">45%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">31%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">26%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">30%</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">44%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">44%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">23%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">33%</FONT></TD>
+</TR>
+<TR><TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Sistemas</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">35%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">35%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">30%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">28%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">25%</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">47%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">53%</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">16%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">31%</FONT></TD>
+</TR>
+<TR><TD WIDTH="7%" VALIGN="TOP" ROWSPAN=2>
+<FONT SIZE=2><P ALIGN="CENTER">98-99</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Gesti&oacute;n</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">30%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">37%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">33%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="11%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">Sistemas</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">55%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">27%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="CENTER">29%</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="11%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+</TABLE>
+<HR>
+
+
+<H3><A NAME="MasInfo"></A>M&aacute;s Informaci&oacute;n</H3>
+<P>P&aacute;gina de J. Labra sobre <A HREF="../Logic.html">L&oacute;gica</A> (En Ingl&eacute;s)</P>
+<P>P&aacute;gina de J. Labra sobre <A HREF="../FuncProg.html">Lenguages de Programaci&oacute;n Avanzados</A> (En Ingl&eacute;s)</P>
+<P><HR></P>
+<H3><A NAME="Sugerencias"></A>Sugerencias</H3>
+
+<UL>
+<LI>Si tienes alguna duda o sugerencia puedes enviar un mensaje a: 
+  <A HREF="mailto:labra@lsi.uniovi.es">labra@lsi.uniovi.es</A>
+ o a 
+  <A HREF="mailto:arturop@pinon.ccu.uniovi.es">
+  arturop@pinon.ccu.uniovi.es</A> 
+</LI></UL>
+
+<P ALIGN="CENTER"><A HREF="http://www.anybrowser.org/campaign/"><IMG SRC="../Images/AB-MS-STAR-EN.Gif" BORDER=0 WIDTH=88 HEIGHT=31 ALT="Viewable With Any Browser"></A></P></BODY>
+
+<address> 
+ Author: <a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a> <br>
+ Last Updated: <tt> $Date: 20/01/2000 $ </tt>			 	
+</address>		
+
+</HTML>

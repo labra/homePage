@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="programa.xsl"?>
+<programa>
+	<sesion fecha="Lunes, 22/7/2002" hora="9 - 12h" titulo="Fundamentos de Internet">
+		<profe ref="guti" />
+		<item>Protocolos</item>
+		<item>Arquitectura cliente/servidor</item>
+		<item>Localización de recursos</item>
+		<item>Familiarización con Internet</item>
+		<material slides="FundamentosInternet.PDF" />
+	</sesion>
+	<sesion fecha="Lunes, 22/7/2002" hora="12-15h" titulo="Representación de la Información">
+		<profe ref="dani" />
+		<item>Formatos de representación</item>
+		<item>Lenguajes de marcas</item>
+		<item>Información vs. meta-información</item>
+		<item>Internacionalización de caracteres: Unicode</item>
+		<material slides="RepInfo.pdf"  />
+	</sesion>
+	<sesion fecha="Martes, 23/7/2002" hora="9-12h" titulo="HTML y Hojas de estilo">
+		<profe ref="labra" />
+		<item>Lenguaje HTML</item>
+		<item>Hojas de estilo</item>
+		<material slides="HTMLCSS.pdf" files="HTMLCSS.zip" />
+	</sesion>
+	<sesion fecha="Martes, 23/7/2002" hora="12-15h" titulo="XML">
+		<profe ref="labra" />
+		<item>Elementos y atributos</item>
+		<item>Definición de tipos de documentos (DTD)</item>
+		<material slides="XML.pdf" files="XML.zip" />
+	</sesion>
+	<sesion fecha="Miércoles, 24/7/2002" hora="9-12h" titulo="XML">
+		<profe ref="labra" />
+		<item>Esquemas</item>
+		<item>Espacios de nombres</item>
+		<item>Enlaces y referencias</item>
+		<material slides="XML.pdf" files="XML.zip" />
+	</sesion>
+	<sesion fecha="Miércoles, 24/7/2002" hora="12-15h" titulo="Transformación de documentos">
+		<profe ref="guti" />
+		<item>Lenguajes XSLT/Xpath</item>
+		<material slides="XSLT-XPath.PDF" files="XSLT.zip" />
+	</sesion>
+	<sesion fecha="Jueves, 25/7/2002" hora="9-9:30h" titulo="XML y Bases de datos">
+		<profe ref="guti" />
+		<item>XQuery y otros lenguajes de consulta</item>
+		<material slides="XQuery.PDF" />
+	</sesion>
+	<sesion fecha="Jueves, 25/7/2002" hora="9:30-13h" titulo="Transformación de documentos">
+		<profe ref="guti" />
+		<item>XSLT y XSL-FO</item>
+		<material slides="XSL-FO.PDF" files="XSL-FO.zip" />
+	</sesion>
+	<sesion fecha="Jueves, 25/7/2002" hora="13-13:30h" titulo="Vocabularios XML: VML">
+		<profe ref="guti" />
+		<item>VML</item>
+		<material slides="VML.PDF" file="VML.zip"/>
+	</sesion>
+	<sesion fecha="Jueves, 25/7/2002" hora="13:30 - 15h" titulo="Programación XML">
+		<profe ref="dani" />
+		<item>SAX y DOM</item>
+		<material slides="SaxDom.pdf" files="saxDom.zip" />
+	</sesion>
+	<sesion fecha="Viernes, 26/7/2002" hora="9-10h" titulo="Vocabularios XML">
+		<profe ref="dani" />
+		<item>XHTML, WML</item>
+		<material slides="xhtmlWml.pdf" />
+	</sesion>
+	<sesion fecha="Viernes, 26/7/2002" hora="10-12h" titulo="Vocabularios XML">
+		<profe ref="dani" />
+		<item>SVG, MathML, VoiceML, SMIL, etc.</item>
+		<material slides="VocabXML.pdf" />
+	</sesion>
+	<sesion fecha="Viernes, 26/7/2002" hora="12-15h" titulo="Servicios Web y Web Semántica">
+		<profe ref="labra" />
+		<item>Servicios Web: SOAP, WSDL y UDDI</item>
+		<item>Formato RDF</item>
+		<item>Ontologías</item>
+		<material slides="SW.pdf" files="SW.zip" />
+	</sesion>
+</programa>

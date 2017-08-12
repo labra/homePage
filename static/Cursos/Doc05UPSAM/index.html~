@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<title>Curso de Doctorado</title>
+<link rel="stylesheet" href="../cursos.css">
+</head>
+<body>
+<h1 class="header">Aplicaciones Avanzadas de XML: Web Semántica</h1>
+
+Material del curso
+
+<ul>
+<li><a href="PPS/Doc05Lenguajes.pps">Lenguaje XML</a></li>
+<li><a href="PPS/Doc05Arquitecturas.pps">Tecnologías Web</a></li>
+<li><a href="PPS/Doc05WebSemantica.pps">Web Semantica</a></li>
+</ul>
+
+
+</body></html>

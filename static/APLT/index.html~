@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN"
+"http://www.w3.org/TR/REC-html40/transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="Author" content="Jose Emilio Labra Gayo">
+    <link rel="stylesheet" href="standard.css"> 
+    <title>Advanced Programming Languages and Technologies </title>
+  </head>
+	
+<body>
+
+
+<table>
+<tr>
+<td><img height=120 width=184 src="Images/APLT.jpg">
+</td>
+<td> <h1 class="inTable">Advanced Programming Languages and Technologies</h1>
+</td>
+</tr>
+</table>
+
+<table class="toc" summary="Table of Contents" 
+           cellpadding="10%">
+<caption>Table of Contents</caption>
+<tr>
+<td><a href="#Introduction">Introduction</a></td>
+<td><a href="#Members">Members</a></td>
+<td><a href="#Projects">Projects</a></td>
+</tr>
+<tr>
+<td><a href="#Publications">Publications</a></td>
+<td><a href="#Software">Software</a></td>
+<td><a href="#Activities">Activities</a></td>
+</tr>
+<tr>
+<td><a href="#Agenda">Agenda</a></td>
+<td><a href="#Links">Links</a></td>
+<td> <a href="#Contact">Contact info.</a></td>
+<td> </td>
+</tr>
+</table>
+
+<h2><a name="Introduction">Introduction</a></h2>
+<p>
+This research group is part of the 
+<a href="http://www.ootlab.uniovi.es"> Object Oriented Technologies Laboratory
+</a>, 
+<a href="http://www.di.uniovi.es">Department of Computer Science</a>, 
+<a href="http://www.uniovi.es">University of Oviedo</a>. </p>
+
+<p>
+The main topics of our research group are:
+ 
+<ul>
+<li> Programming Language Specification and Implementation
+         </li>
+<li> Domain-Specific Languages 
+         </li>
+<li> Language Processors 
+          (Compilers, Interpreters) </li>
+<li> Programming Techniques (Generic programming) </li>
+<li> Programming Technologies 
+         (components, frameworks, 
+ <a href=
+  "http://www.di.uniovi.es/~cueva/investigacion/lineas/patrones/index.html">design patterns</a>
+   ,...) </li>
+<li> Programming Engineering (modelling languages, 
+   <a href="http://www.di.uniovi.es/~cueva/investigacion/lineas/CASE/index.html">
+    CASE Tools
+   </a>) </li> 
+</ul>
+
+<p>
+You can join our 
+<a href="http://www.egroups.com/group/apltlist"> mailing list</a>.
+
+
+<h2><a name="Members">Members</a></h2>
+<ul>
+<li> <a href="http://www.arrakis.es/~guticr/itacio-eng.html">
+      Agust&iacute;n Cernuda del R&iacute;o</a></li>
+<li> <a href="http://www.di.uniovi.es/~cueva">
+      Juan Manuel Cueva Lovelle</a></li>
+<li> <a href="http://www.di.uniovi.es/~ric">
+      Ra&uacute;l Izquierdo Castanedo</a></li>
+<li> <a href="http://www.di.uniovi.es/~aquilino">
+      Aquilino Adolfo Juan Fuente</a> </li>
+<li> <a href="http://lsi.uniovi.es/~labra"> 
+     Jose Emilio Labra Gayo</a></li>
+<li> <a href="http://www.di.uniovi.es/~candi">
+     Mar&iacute;a Candida Luengo D&iacute;ez</a></li>
+<li> <a href="http://www.di.uniovi.es/~ortin">
+     Francisco Ort&iacute;n Soler
+     </a></li>
+</ul>
+
+<h2><a name="Publications">Publications</a></h2>
+
+By now, just check the publications of each member
+
+<h2><a name="Software">Software</a></h2>
+
+<ul><li> <a href="http://lsi.uniovi.es/~labra/LPS/LPS.html">
+         LPS - Language Prototyping System</a>
+</ul>
+<h2><a name="Projects"></a>Research Projects</h2>
+<ul>
+<li><a href="http://www.arrakis.es/~guticr/itacio-eng.html">
+      ITACIO - A Component Model for Verifying Software 
+               at Construction Time </a></li>
+<li><a href="http://lsi.uniovi.es/~labra/LPS/LPS.html">
+      LPS - Language Prototyping System</a></li> 
+<li> <a href="http://www.di.uniovi.es/~candi/o2c2/o2c2.htm">
+      O2C2 - Object Oriented Compiler Construction</a> </li>
+<li> GCPL - Global Computing Programming Languages </li> 
+</ul>
+
+<h2><a name="Activities"></a>Activities</h2>
+<ul>
+<li> <a href="http://www.uniovi.es/%7Eoviedo3/Old/Jornadas/jornadas.htm">
+     II Conference on Object Oriented Technologies</a> </li>
+</ul>
+
+<h2><a name="Agenda"></a>Agenda</h2>
+<table class="toc" summary="Conferences">
+<caption>Conferences</caption>
+<tr>
+	<th> Title</th>
+	<th> Place</th>
+	<th> Date</th>
+</tr>
+<tr>
+ <td> <a href="http://marcel.uni-mb.si/marjan/hicss-34/">
+	Domain-Specific Languages for Software Engineering </a>
+</td>
+	<td> Maui, Hawaii </td>
+	<td> January 3-6, 2001</td>
+</tr>
+<td> <a href="http://www.daimi.au.dk/~popl01/">
+	Principles of Programming Languages</a>
+</td>
+	<td> London, England </td>
+	<td> January 17-19, 2001</td>
+</tr>
+<tr>
+	<td> 
+         <a href="http://www.wi.uni-muenster.de/pi/FLOPS2001/">
+	 FLOPS 2001
+	 Fifth International Symposium on Functional and Logic Programming     
+	 </a>
+	</td>
+	<td> Tokyo, Japan </td>
+	<td> 7-9 March, 2001 </td>
+</tr>
+
+<tr>
+	<td> 
+         <a href="http://seclab.cs.sunysb.edu/padl/">
+       Third International Workshop on 
+       Practical Aspects of Declarative Languages 
+       </a>
+	</td>
+	<td> Las Vegas, USA </td>
+	<td> 11,12 March, 2001 </td>
+</tr>
+
+<tr>
+	<td> 
+         <a href="http://www.univ-orleans.fr/SCIENCES/LIFO/Manifestations/HLPP2001/">
+	       HLPP2001: International workshop on
+	       High-level parallel programming and applications</a>
+	</td>
+	<td> Orleans, France </td>
+	<td> 26-27 March, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www.disi.unige.it/etaps2001/">
+	       European Joint Conferences on Theory and Practice of 
+	       Software (ETAPS) </a>
+	</td>
+	<td> Genova, Italy</td>
+	<td> 2-6 April, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www.disi.unige.it/etaps2001/CC/index.html">
+	       International Conference on Compiler Construction
+	       </a>
+	</td>
+	<td> Genova, Italy</td>
+	<td> 2-6 April, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www.disi.unige.it/etaps2001/CC/index.html">
+	       International Conference on Compiler Construction
+	       </a>
+	</td>
+	<td> Genova, Italy</td>
+	<td> 2-6 April, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www.cs.chalmers.se/~dave/esop/">
+	       ESOP 2001 - European Symposium On Programming</a>
+	</td>
+	<td> Genova, Italy</td>
+	<td> 6-7 April, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www-st.inf.tu-dresden.de/fase2001">
+	       FASE 2001 - Fundamental Approaches to Software Engineering
+	       </a>
+	</td>
+	<td> Genova, Italy</td>
+	<td> 6-7 April, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www.research.ibm.com/masplas/">
+		MASPLAS'01 Mid-Atlantic Student Workshop
+		on Programming Languages and Systems 
+	</a>
+	</td>
+	<td> Hawthorne, New York, USA</td>
+	<td> 27 April, 2001 </td>
+</tr>
+
+<tr>
+	<td> <a href="http://www.brics.dk/~pado2/">
+			2nd Symposium on Programs as Data Objects </a>
+	</td>
+	<td> Aarhus, Denmark</td>
+	<td> 21-23 May, 2001 </td>
+</tr>
+<tr>
+        <td> <a href="http://www.math.tulane.edu/mfps17.html">
+		17th COnference on the 
+		Mathematical Foundations of
+		Programming Semantics </a>
+	</td>
+	<td> Aarhus, Denmark</td>
+	<td> 24-27 May, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www-sop.inria.fr/JGI2001/">
+	Joint  ACM  Java Grande - ISCOPE 2001 Conference
+	</a>
+	</td>
+	<td> Stanford University, California</td>
+	<td> 2-4 June, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://www.2001.ecoop.org">
+		Ecoop-2001, European Conference on 
+		Object Oriented Programming
+		</a>
+	</td>
+	<td> Budapest, Hungary</td>
+	<td> 18-22 June, 2001 </td>
+</tr>
+
+<tr>
+	<td> <a href="http://www.cs.pitt.edu/~soffa/pldi01/cfp.html">
+		ACM SIGPLAN 2001 Conference on Programming 
+		Language Design and Implementation</a>
+	</td>
+	<td> Snowbird, Utah, USA</td>
+	<td> 20-22 June, 2001 </td>
+</tr>
+<tr>
+	<td> <a href="http://concur01.cs.auc.dk/">
+	    12th International Conference on Concurrency Theory </a>
+	</td>
+	<td> Aalborg, Denmark</td>
+	<td> 21-24, August 2001 </td>
+</tr>
+
+<tr>
+	<td> <a href="http://tacs2001.ito.ecei.tohoku.ac.jp/tacs2001/">
+	    Fourth International Symposium on
+            Theoretical Aspects of Computer Science (TACS 2001) </a>
+	</td>
+	<td> Sendai, Japan</td>
+	<td> 29-31, October, 2001 </td>
+</tr>
+</table>
+
+<h2><a name="Groups">Related Groups</a></h2>
+<ul>
+<li> <a href="http://www.cs.rice.edu/CS/PLT/">
+     The Programming Languages Team </a>
+</ul> 
+
+<h2><a name="Links">Related Links</a></h2>
+<ul>
+<li>
+   Labra's page on 
+   <a href="http://lsi.uniovi.es/~labra/APL.html">
+   Advanced Programming Languages </a>
+</li>
+<li> <a href="http://www.di.uniovi.es/~cueva/investigacion/lineas/CASE/index.html">
+       CASE Tools Page </a>, by 
+       <a href="http://www.di.uniovi.es/~cueva">J. M. Cueva Lovelle</a> </li>
+<li> <a href="http://www.di.uniovi.es/~cueva/investigacion/lineas/patrones/index.html">
+       Pattern's Page </a>(in spanish), by 
+       <a href="http://www.di.uniovi.es/~cueva">J. M. Cueva Lovelle</a> </li>
+<li> 
+   <a href="http://www.acm.org/sigplan/">
+   ACM SIGPLAN (Special Interest Group on Programming Languages)
+</li>
+<li>
+   <a href="http://www.cwi.nl/eapls/">
+   European Association for Programming Languages and Systems</a>
+</li>
+
+<li><a href="http://www.cordis.lu/ist/fetgc.htm">
+      European Comission Proactive Initiative on Global Computing
+    </a>
+</li>
+
+<li> Apart from research, most of us also teach the 
+      <a href="http://www.di.uniovi.es/procesadores/">
+      Language Processors Course </a> (in spanish)
+</li>
+</ul>
+
+<h2><a name="Contact">Contact Information</a></h2>
+<dl>
+<dt> Address</dt>
+<dd> Laboratory of Object Oriented Technnologies <br> 
+     University of Oviedo <br>
+     Department of Computer Science<br>
+     Edificio Facultad de Ciencias.<br>
+     c/Calvo Sotelo S/N.<br>
+     OVIEDO 33007
+     Asturias - Spain.</dd>
+
+<dt> Phone</dt>
+<dd> (+34) 985.10.33.94. </dd>
+
+<dt>Fax</dd>
+<dd> (+34) 985.10.33.54</dd>
+</dl>
+ 
+
+<div class="center">						     
+  <table class="bottom" summary="Bottom information">
+	<tr>
+	<td> <a href="http://jigsaw.w3.org/css-validator">
+  <img src="http://lsi.uniovi.es/~labra/Images/vcss.gif" 
+       alt="Valid CSS!"
+       height="31" width="88"> </a>
+  </td>
+  <td> 
+  <a href="http://validator.w3.org/check?uri=http://lsi.uniovi.es/~labra">
+  <img src="http://lsi.uniovi.es/~labra/Images/vh40.gif" 
+ 	alt="Valid HTML 4.0!" 
+ 	height="31" width="88">
+   </a>
+  </td>
+  <td> <a href="http://www.anybrowser.org/campaign/">
+       <img src="http://lsi.uniovi.es/~labra/Images/AB-MS-STAR-EN.Gif" 
+   	    alt="Viewable With Any Browser" 
+	    height="31" width="88">
+	</a>
+   </td>
+  </tr> 
+</table>
+</div>
+
+<script language=
+   JavaScript src="http://www.uniovi.es/%7Eoviedo3/Includes/banner.js">
+   Cabecera
+</script>
+
+
+<address> 
+Author: <a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a> <br>
+Last Updated: <tt> $Date: 10/11/2000 $ </tt>			 	
+</address>		
+
+  </body>
+</html>
+
+
+

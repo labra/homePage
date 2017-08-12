@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//EN"
+"http://www.w3.org/TR/REC-html40/transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="Author" content="Jose Emilio Labra Gayo">
+		<link rel="stylesheet" 
+		      href="http://lsi.uniovi.es/~labra/myStyle.css">
+    <title>LPS - a Language Prototyping System</title>
+  </head>
+	
+  <body>
+
+<H1 class="header">
+ <img width=150 height=150 src="../Images/LPS.gif" alt="LPS logo">
+ Language Prototyping System
+</H1>
+
+<table class="toc" summary = "Table of contents" >
+<caption><em>Table of Contents</em></caption>
+<tr>
+<td>
+<ul>
+  <li> <a href="#News">Latest News</a>  </li>
+  <li> <a href="#FAQ">Frecuently Asked Questions</a> </li>
+  <li> <a href="#Downloading">Downloading</a> </li>
+</ul>
+</td>
+<td>
+<ul>
+<li> <A HREF="#Documentation">Documentation</A></li>
+<li> <A href="#Contact">Contact Information</a></li>
+<li> <A HREF="#Related">Related Pages</A></li>
+</ul>
+</td>
+</tr>
+</table>
+
+<H2><A NAME="News"></A>Latest News</H2>
+
+<ol>
+<li> 13-9-00 <a href="http://www.di.uniovi.es/~labra/FTP/LPS.tar.gz"> 
+               Version 1.0</a> works with 
+  <a href="http://www.haskell.org/ghc/">GHC</a>
+  and 
+  <a href="http://www.haskell.org/hugs/">Hugs98</a>
+</li>
+<li> 28-01-99 <a href="LPS0.zip">First Version</a> works under 
+  <a href="http://www.haskell.org/hugs/">Hugs98</a>
+</ol> 
+
+<H2><A NAME="FAQ"></A>FAQ</H2>
+
+<dl>
+<dt> What is LPS? </dt>
+<dd> LPS is a system for writing modular interpreters implemented in 
+   <a href="http://www.haskell.org">Haskell</a>.
+ It is part of ongoing research for my PhD Thesis. 
+ The goal is to provide a framework for the development of language  
+ prototypes.</dd>
+</dl>
+
+<H2><A NAME="Downloading"></A>Downloading LPS</H2>
+<p>
+The latest version can be downloaded from:
+  <a href="http://www.di.uniovi.es/~labra/FTP/LPS.tar.gz">
+           http://www.di.uniovi.es/~labra/FTP/LPS.tar.gz</a>.</p>
+<p> You can load the system using both Hugs98 and GHC. It needs
+    multiparameter type classes and overlapping instances</p>
+ 
+<H2><A NAME="Documentation"></A>Documentation</H2>
+
+This is a list of papers related to the system. 
+
+<UL>
+<LI>
+  <A HREF="http://www.cs.uu.nl/~luc/">L. Duponcheel</A>, 
+  <A HREF="http://www.cs.uu.nl/%7Eluc/modular.ps">
+  Writing modular interpreters using Catamorphisms, 
+  subtypes and monad transformers</A>. 
+  Research Report (draft) (Utrecht University, 1995). </LI>
+
+<LI>
+  <A HREF="http://www-swiss.ai.mit.edu/ftpdir/users/dae/home.html">
+  D. Espinosa</A>, 
+  <A HREF="http://www-swiss.ai.mit.edu/ftpdir/users/dae/papers/thesis.ps.Z">
+  Semantic Lego</A>, PhD. Thesis. (Columbia University, 1995). </LI>
+
+<LI><A HREF="http://www.cs.utwente.nl/~fokkinga/">
+  M. Fokkinga</A>, 
+   Monadic Maps and Folds for Arbitrary Datatypes. 
+   Technical Report.(Dept. INF, University of Twente, 1994). </LI>
+
+<LI><A HREF="http://www-sal.cs.uiuc.edu/~harrison/">
+  W. L. Harrison</A>, 
+  <A HREF="http://www-sal.cs.uiuc.edu/~kamin/">S. N. Kamin</A>, 
+  <A HREF="http://www-sal.cs.uiuc.edu/~harrison/pubs/research/iccl98.ps.Z">
+  Modular Compilers Based on Monad Transformers</A>, 
+  IEEE Computer Society International Conference on Computer Languages, 
+  Loyola University, Chicago (1998). </LI>
+
+<LI>
+  <A HREF="http://www.ipl.t.u-tokyo.ac.jp/~hu">
+  Z. Hu</A> , H. Iwasaki, 
+  
+   <A HREF="http://www.ipl.t.u-tokyo.ac.jp/~hu/pub/Fuji95.ps.gz">
+   Promotional Transformation of Monadic Programs</A>, 
+   Fuji International Workshop on Functional and Logic Programming, 
+   Susono, July 1995, pp.196-210. World Scientific.</LI>
+
+<LI><A HREF="http://www.cs.chalmers.se/~rjmh/">
+   J. Hughes</A>, 
+   <A HREF="http://www.cs.chalmers.se/~rjmh/Papers/arrows.ps">
+   Generalising Monads to Arrows</A>, 
+   Fourth International Conference on Mathematics of Program Construction, 
+   Baastad, Sweden, 15- 17 June, 1998 </LI>
+
+<LI>
+  <A HREF="../Welcome.html">J. E. Labra G</A>. 
+  <A HREF="afp.ps">
+  An Implementation of Modular Monadic Semantics using Folds and Monadic Folds
+  </A>. 
+  Workshop on Research Themes on Functional Programming, 
+  3rd International Summer School on Advanced Functional Programming. 
+  Braga, Portugal (1998) </LI>
+
+<LI> <A HREF="../Welcome.html">Jose E. Labra G.</A>, 
+   J. M. Cueva L., M. C. Luengo D&iacute;ez, 
+   <A HREF="Clapf99.ps">
+   Language Prototyping using Modular Monadic Semantics</A>,
+   3rd Latin-American Conference on Functional Programming, 8-9, March, 1999, Recife - Brasil, 
+   <A HREF="Clapf99.zip">
+   Also Available the PowerPoint Presentation (compressed)</A> </LI>
+
+<LI> <A HREF="../Welcome.html">Jose E. Labra G.</A>, 
+   J. M. Cueva L., M. C. Luengo D&iacute;ez, 
+   <i>Modular Development of Interpreters from Semantic Building Blocks</i>,
+   <a href="http://www.ii.uib.no/~nwpt00/">
+      The 12th Nordic Workshop on Programming Theory</a>, Bergen-Norway,
+      October 11-13, 2000. You can download the <a href="../FTP/NWPT00.PS">Extended Abstract</a> 
+      or the <a href="../FTP/NWPT00.PDF">presentation slides</a>. </li>
+
+<LI><A HREF="http://java.sun.com/people/sl/">S. Liang</A>, 
+    <A HREF="http://www.cs.yale.edu/homes/hudak-paul.html">P. Hudak</A>, 
+    <A HREF="http://www.cse.ogi.edu/~mpj/">
+    M. Jones</A>, 
+    <A HREF="http://haskell.org/papers/modular-interpreters.ps">
+    Monad transformers and modular interpreters</A>, 
+    POPL'94: 21st ACM SIGPLAN-SIGACT Symposium on Principles of Programming 
+    Languages, San Francisco, California (1995). </LI>
+
+<LI>
+   <A HREF="http://java.sun.com/people/sl/">S. Liang</A>, 
+   <A HREF="http://www.cs.yale.edu/homes/hudak-paul.html">P. Hudak</A>, 
+   <A HREF="http://haskell.org/papers/esop96.ps">
+   Modular denotational semantics for compiler construction</A>, 
+   ESOP'96: 6th European Symposium on Programming, Linkoping, Sweden 
+   (Springer-Verlag, 1996). </LI>
+
+<LI><A HREF="http://java.sun.com/people/sl/">S. Liang</A>, 
+    <A HREF="http://java.sun.com/people/sl/papers/thesis.ps.gz">
+    Modular Monadic Semantics and Compilation</A>, 
+    PhD. Thesis. Computer Science, Yale (Yale University, 1998). </LI>
+
+<LI><A HREF="http://www.cs.uu.nl/~erik/">
+     E. Meijer</A>, 
+     <A HREF="http://www.cs.uu.nl/~johanj/">
+     J. Jeuring</A>, 
+     <A HREF="http://www.cs.chalmers.se/~johanj/mmf.ps">
+     Merging monads and folds for functional programming</A>, 
+     First International Spring School on Advanced Functional Programming 
+     Techniques (Springer-Verlag, 1995). </LI>
+
+<LI><A HREF="http://www.disi.unige.it/person/MoggiE/">
+     E. Moggi</A>, 
+     <A HREF="http://www.disi.unige.it/person/MoggiE/ftp/abs-view.dvi.gz">
+     An abstract view of programming languages</A>. 
+     Technical Report.ECS-LFCS-90-113 (University of Edinburgh, 1989). </LI>
+
+<LI><A HREF="http://www.ipl.t.u-tokyo.ac.jp/~onoue">
+     Y. Onoue</A>, 
+     <A HREF="http://www.ipl.t.u-tokyo.ac.jp/~hu/">Z. Hu</A>, 
+     H. Iwasaki, 
+     <A HREF="http://www.takeichi.t.u-tokyo.ac.jp/">M. Takeichi</A>, 
+     <A HREF="http://www.ipl.t.u-tokyo.ac.jp/~hu/pub/ifip97.ps.gz">
+     A Calculational Fusion System HYLO</A> , 
+     IFIP TC 2 Working Conference on Algorithmic Languages and Calculi. 
+     Le Bischenberg, France, February 1997, pp.76-106. Chapman&amp;Hall.</LI>
+
+<LI>
+    <A HREF="http://www.fing.edu.uy/~pardo/">
+    A. Pardo</A>, 
+    <A HREF="http://www.fing.edu.uy/~pardo/papers/wgp98.ps.gz">
+    Fusion of Monadic (Co)Recursive Programs</A>, 
+    In MPC'98 Workshop on Generic Programming, Marstrand, Sweden, 
+    June 1998</LI>
+
+<LI>
+    G. L. Steele, 
+    Building Interpreters by composing Monads, 
+    POPL' 94: 21st ACM SIGPLAN-SIGACT Symposium on 
+    Principles of Programming Languages, Portland, 
+    Oregon (ACM Press, 1994). </LI>
+
+<LI>
+    <A HREF="http://www.cl.cam.ac.uk/users/kw217/">
+    K. Wansbrough</A>, 
+    J. Hamer, 
+    <A HREF="http://www.cl.cam.ac.uk/users/kw217/research/msc/thesis/index.html">
+    A Modular Monadic Action Semantics</A>, 
+    Domain Specific Languages, Santa Barbara, California 
+    (The USENIX Association, 1997). </LI>
+</UL>
+
+<H2><A NAME="Contact"></A>Contact Information</H2>
+If you have any comments, suggestions, bug reports, or issues you would 
+like to discuss regarding LPS, feel free to contact me at
+<a href="mailto:labra@lsi.uniovi.es"> labra@lsi.uniovi.es</a>. 
+
+<H2><A NAME="Related"></A>Related Pages</H2>
+<UL>
+<LI><A HREF="http://www.cse.ogi.edu/~walton/">
+    Lisa A. Walton</A> 
+     maintains a page about 
+     <A HREF="http://www.cse.ogi.edu/~walton/monads.html">monads</A> </LI>
+
+<LI>I also maintain pages about 
+    <A HREF="../APL.html"><I>Advanced Programming Languages</I></A> 
+and <A HREF="../Logic.html"><I>Logic for Computer Science</I></A> 
+</LI>
+
+</UL>
+
+
+<a href="http://es.nedstat.net/cgi-bin/viewstat?name=labraLPS">
+<img src="http://es.nedstat.net/cgi-bin/nedstat.gif?name=labraLPS" border=0 alt="" width=22 height=22></a> 
+
+<address> 
+Author: <a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a> <br>
+Last Updated: <tt> $Date: 25/10/2000 $ </tt>			 	
+</address>		
+
+  </body>
+</html>

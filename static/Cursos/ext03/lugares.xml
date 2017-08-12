@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="lugares.xsl"?>
+<!DOCTYPE lugares [
+<!ELEMENT lugares (lugar*)>
+<!ELEMENT lugar EMPTY>
+<!ATTLIST lugar id     ID #REQUIRED
+                href   CDATA #IMPLIED
+		nombre CDATA #REQUIRED>
+]>
+<lugares>
+<lugar id ="euitio"
+       href="http://www.euitio.uniovi.es" 
+       nombre="Escuela Universitaria de Ingeniería Técnica Informática de Oviedo" />
+</lugares>
+

@@ -1,0 +1,122 @@
+<html><head><meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"><title>Curso de Extensión Universitaria</title><link rel="stylesheet" href="../cursos.css"><script type="text/javascript">
+	
+	<!--
+    if (document.images)
+         {
+             logo1     = new Image(120,120);
+             logo2     = new Image(120,120);
+             logo1.src = "../Images/logo-xml.gif";
+             logo2.src = "../Images/logo-xmlLadrillos.gif";
+         }
+
+    function cambia(nombre, imagen) {  
+     if (document.images) {
+      document[nombre].src = eval(imagen+".src");
+    }
+   }
+    // -->
+    
+    </script></head><body><div class="header"><p><a href="#datos">Datos</a> |
+      <a href="#programa">Programa</a> |
+      <a href="#alumnos">Alumnos/NOTAS</a> |
+      <a href="#evaluacion">Evaluacion</a> |
+      <a href="#enlaces">Enlaces</a></p></div><table class="header"><tr><td>
+    
+       <img name="logo1"
+            width="120" 
+            height="120" 
+            src="../images/logo-xml.gif" 
+            onMouseOver='cambia("logo1", "logo2")' 
+            onMouseOut='cambia("logo1", "logo1")' />
+            
+       </td><td><h1 class="header">Tecnologías XML para la estructuración del conocimiento en Internet</h1></td></tr></table><h2><a name="datos">Datos del curso</a></h2><ul><li><span class="item">Dirección</span>: <a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a></li><li><span class="item">Fechas</span>: 22 al 26 de Julio de 2002</li><li><span class="item">Lugar</span>: <a href="http://www.euitio.uniovi.es">Escuela Universitaria de Ingeniería Técnica Informática de Oviedo</a></li><li><span class="item">Plazas</span>: 25</li><li><span class="item">Requisitos</span>: Conocimientos de informática y programación</li><li><span class="item">Tipo</span>: Homologable por 4.5 créditos de libre configuración</li><li><span class="item">Objetivos</span>: 
+		<p>Se espera que al finalizar el curso, el alumno sea capaz de:</p>
+		<ul>
+			<li>Utilizar el lenguaje HTML para crear páginas Web
+ </li>
+			<li>Utilizar el lenguaje HTML y las hojas de estilo CSS para crear páginas Web
+  fácilmente mantenibles</li>
+			<li>Utilizar XML para representar información concreta</li>
+			<li>Utilizar XSLT para transformar información representada en XML</li>
+			<li>Conocer vocabularios basados en XML</li>
+			<li>Conocer el lenguaje RDF</li>
+		</ul>
+	</li></ul><h2><a name="programa">Programa</a></h2><table class="programa"><caption>Programa del curso</caption><col class="dia"><col class="sesion"><col class="contenido"><col class="material"><tr><th>Día</th><th>Sesión</th><th>Contenido</th><th>Material</th></tr>
+	<tr><td class="programa"><p class="inTable">Lunes, 22/7/2002</p><p class="inTable">9 - 12h</p></td><td class="programa"><p class="inTable"><span class="item">Fundamentos de Internet</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~cernuda">Agustín Cernuda del Río</a></p></td><td class="programa"><ul><li>Protocolos</li><li>Arquitectura cliente/servidor</li><li>Localización de recursos</li><li>Familiarización con Internet</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/FundamentosInternet.PDF">
+     Transparencias
+ </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Lunes, 22/7/2002</p><p class="inTable">12-15h</p></td><td class="programa"><p class="inTable"><span class="item">Representación de la Información</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~dani">Daniel Gayo Avello</a></p></td><td class="programa"><ul><li>Formatos de representación</li><li>Lenguajes de marcas</li><li>Información vs. meta-información</li><li>Internacionalización de caracteres: Unicode</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/RepInfo.pdf">
+     Transparencias
+ </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Martes, 23/7/2002</p><p class="inTable">9-12h</p></td><td class="programa"><p class="inTable"><span class="item">HTML y Hojas de estilo</span></p><p class="inTable"><a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a></p></td><td class="programa"><ul><li>Lenguaje HTML</li><li>Hojas de estilo</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/HTMLCSS.pdf">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/HTMLCSS.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Martes, 23/7/2002</p><p class="inTable">12-15h</p></td><td class="programa"><p class="inTable"><span class="item">XML</span></p><p class="inTable"><a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a></p></td><td class="programa"><ul><li>Elementos y atributos</li><li>Definición de tipos de documentos (DTD)</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XML.pdf">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XML.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Miércoles, 24/7/2002</p><p class="inTable">9-12h</p></td><td class="programa"><p class="inTable"><span class="item">XML</span></p><p class="inTable"><a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a></p></td><td class="programa"><ul><li>Esquemas</li><li>Espacios de nombres</li><li>Enlaces y referencias</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XML.pdf">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XML.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Miércoles, 24/7/2002</p><p class="inTable">12-15h</p></td><td class="programa"><p class="inTable"><span class="item">Transformación de documentos</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~cernuda">Agustín Cernuda del Río</a></p></td><td class="programa"><ul><li>Lenguajes XSLT/Xpath</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XSLT-XPath.PDF">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XSLT.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Jueves, 25/7/2002</p><p class="inTable">9-9:30h</p></td><td class="programa"><p class="inTable"><span class="item">XML y Bases de datos</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~cernuda">Agustín Cernuda del Río</a></p></td><td class="programa"><ul><li>XQuery y otros lenguajes de consulta</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XQuery.PDF">
+     Transparencias
+ </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Jueves, 25/7/2002</p><p class="inTable">9:30-13h</p></td><td class="programa"><p class="inTable"><span class="item">Transformación de documentos</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~cernuda">Agustín Cernuda del Río</a></p></td><td class="programa"><ul><li>XSLT y XSL-FO</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XSL-FO.PDF">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/XSL-FO.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Jueves, 25/7/2002</p><p class="inTable">13-13:30h</p></td><td class="programa"><p class="inTable"><span class="item">Vocabularios XML: VML</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~cernuda">Agustín Cernuda del Río</a></p></td><td class="programa"><ul><li>VML</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/VML.PDF">
+     Transparencias
+ </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Jueves, 25/7/2002</p><p class="inTable">13:30 - 15h</p></td><td class="programa"><p class="inTable"><span class="item">Programación XML</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~dani">Daniel Gayo Avello</a></p></td><td class="programa"><ul><li>SAX y DOM</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/SaxDom.pdf">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/saxDom.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Viernes, 26/7/2002</p><p class="inTable">9-10h</p></td><td class="programa"><p class="inTable"><span class="item">Vocabularios XML</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~dani">Daniel Gayo Avello</a></p></td><td class="programa"><ul><li>XHTML, WML</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/xhtmlWml.pdf">
+     Transparencias
+ </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Viernes, 26/7/2002</p><p class="inTable">10-12h</p></td><td class="programa"><p class="inTable"><span class="item">Vocabularios XML</span></p><p class="inTable"><a href="http://www.di.uniovi.es/~dani">Daniel Gayo Avello</a></p></td><td class="programa"><ul><li>SVG, MathML, VoiceML, SMIL, etc.</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/VocabXML.pdf">
+     Transparencias
+ </a></li></ul></td></tr>
+	<tr><td class="programa"><p class="inTable">Viernes, 26/7/2002</p><p class="inTable">12-15h</p></td><td class="programa"><p class="inTable"><span class="item">Servicios Web y Web Semántica</span></p><p class="inTable"><a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a></p></td><td class="programa"><ul><li>Servicios Web: SOAP, WSDL y UDDI</li><li>Formato RDF</li><li>Ontologías</li></ul></td><td class="programa"><ul><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/SW.pdf">
+     Transparencias
+ </a></li><li><a href="http://petra.euitio.uniovi.es/~labra/cursos/Verano02/SW.zip">
+  Ficheros
+  </a></li></ul></td></tr>
+</table><h2><a name="evaluacion">Evaluacion</a></h2>
+		<p>
+ La evaluación del curso se desarrollará mediante un trabajo 
+ práctico que consistirá en la realización de un pequeño sitio Web utilizando 
+ algunas de las tecnologías XML presentadas en el curso. 
+</p>
+<p> En el sitio Web se deben incluir los siguientes enlaces
+  obligatorios</p>
+		<ul>
+		<li>Descripción</li>
+		<li>Tecnologías empleadas (enlace a código fuente en XML</li>
+		</ul>
+<p>La página debe finalizarse antes del 25 de Agosto. A partir de dicho día comenzará el
+proceso de evaluación. Si la página no está accesible, la nota del alumno será &quot;NO PRESENTADO&quot;.
+</p>
+<p>
+Las notas estarán accesibles mediante Internet de forma individual en la dirección indicada 
+en el apartado alumnos. 
+</p>
+<h2><a name="alumnos">Alumnos</a></h2><a href="http://petra.euitio.uniovi.es/cgi-bin/plf/cursoVerano02.cgi">
+   Información personalizada de alumnos (actualizar los campos que faltan)
+   </a><h2><a name="enlaces">Enlaces</a></h2><table><caption>Enlaces relacionados</caption>
+<tr><td><a href="http://www.w3c.org">Página del consorcio Web</a></td></tr>
+<tr><td><a href="files/source.tar.gz">Código con el que se han generado estas páginas (XML, CSS y XSLT)</a></td></tr>
+</table></body></html>

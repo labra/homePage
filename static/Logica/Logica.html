@@ -1,0 +1,1305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0//ES"
+"http://www.w3.org/TR/REC-html40/transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Style-Type" 
+	 content="text/css; charset=iso-8859-1" />
+    <meta name="Author" content="Jose Emilio Labra Gayo" />
+		<link rel="stylesheet" href="../myStyle.css" />
+		<title>L&oacute;gica </title>
+</head>
+
+<body>
+<div class="center">
+<h1 class="header">Lógica</h1>
+</div>
+
+<p><em>Profesor:</em> 
+    <a href="http://www.di.uniovi.es/~labra">Jose E. Labra G.</a>
+</p>
+
+<p>
+Asignatura del plan nuevo de la 
+<a href="http://www15.uniovi.es/"><i>Escuela Universitaria de 
+      Ingenier&iacute;a T&eacute;cnica Inform&aacute;tica</i>
+</a> de la 
+<a href="http://www3.uniovi.es/">Universidad de Oviedo</a>. 
+</p>
+<p>Pueden consultarse dudas y otras cuestiones de la asignatura en este 
+  <a href="http://euitio178.ccu.uniovi.es/foros/viewforum.php?f=21&sid=1e405d6690ff4072ebab76cc9cee4a42">hilo</a> del foro de la <a href="http://www.euitio.uniovi.es">EUITIO</a></p>
+
+<div class="center">
+<table>
+<tr>
+<td>
+<ul>
+<li><a href="ProgramaLogica.pdf">Programa</a> </li>
+<li><a href="#Apuntes">Apuntes</a> </li>
+<li><a href="#Software">Software</a> </li>
+<li><a href="#Notas">Notas</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="#Examenes">Ex&aacute;menes</a></li>
+<li><a href="#Practicas">Pr&aacute;cticas</a></li>
+<li><a href="Logicom.html">Comentarios</a> </li>
+<li><a href="#MasInfo">M&aacute;s Informaci&oacute;n</a> </li>
+<li><a href="http://euitio178.ccu.uniovi.es/wiki/index.php/FAQLogica">FAQ</a></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+
+<h3><a name="Apuntes">Apuntes</a></h3>
+<ul>
+<li>Apuntes de Deducción Natural 
+    (<a href="apuntes/nd.pdf">PDF</a>)
+    (<a href="apuntes/nd.html">HTML</a>). NOTA: Estos apuntes utilizan 
+   caracteres <a href="http://www.unicode.org">Unicode</a> para representar cuantificadores 
+ y conectivas. Si al cargar la versión HTML se ven caracteres extraños,
+ cambiar la codificación del visualizador a UTF-8.
+</li>
+ <li><i> 
+        <a href="http://www.di.uniovi.es/~labra/FTP/Logica/Examenes.pdf">
+	Ejercicios de L&oacute;gica Inform&aacute;tica</a></i>. 
+	Jose E. Labra G., Ana I. Fern&aacute;ndez M., Jes&uacute;s Arturo P&eacute;rez D&iacute;az, 
+	Cuaderno Did&aacute;ctico
+	Num. 9, Ed. Servitec, 
+	ISBN: 84-8416-357-1, Oct. 1998.
+	Versi&oacute;n de Septiembre de 2002
+ </li>
+
+ <li>Ejercicios propuestos en clase con soluciones (versión 28/01/2001). 
+      <a href="ejer01.html">(Versión HTML)</a>
+      <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ejer01.pdf">(Versión PDF)</a>
+ </li>
+ <li><i><a href="http://lsi.uniovi.es/~labra/FTP/LPROP.pdf">
+	L&oacute;gica Proposicional para Inform&aacute;tica</a></i>.
+	Jose E. Labra G., Ana I. Fern&aacute;ndez M. Cuaderno
+	Did&aacute;ctico Num. 12, Ed. Servitec, ISBN:
+	84-8416-613-9, Oct. 1998
+</li>
+<li><i><a href="http://www.di.uniovi.es/~labra/FTP/LPRED.pdf">
+	L&oacute;gica de Predicados</a></i>.
+	Jose E. Labra G., Daniel Fer&aacute;ndez Lanv&iacute;n, 
+	Cuaderno Did&aacute;ctico, Ed. Servitec, 2005
+</li>
+<li> <a href="http://lsi.uniovi.es/~labra/FTP/PLPura.pdf">
+         Programaci&oacute;n L&oacute;gica Pura (Transparencias de una Lecci&oacute;n)
+		</a></li> 
+<li>    <i><a href="http://lsi.uniovi.es/~labra/FTP/Prolog.pdf">
+	Programaci&oacute;n Pr&aacute;ctica en Prolog</a></i> 
+	J. E. Labra G. Cuaderno Did&aacute;ctico Num. 13, 
+	Ed. Servitec,
+	ISBN: 84-8416-612-0, Nov. 1998
+</li>
+
+</ul>
+
+
+<h3><a name="Software">Software</a></h3>
+<ul>
+<li> Prolog:
+     <ul> 
+     <li><a href="http://www.di.uniovi.es/~labra/FTP/Prolog/w32pl5211.exe.gz">
+     Copia Local del compilador</a></li>
+     <li>Pueden obtenerse las versiones originales actualizadas en
+        <a href="http://www.swi-prolog.org">www.swi-prolog.org</a></li>
+     </ul>
+   </li>
+<li>
+<a href="http://yandes.sourceforge.net">YanDES</a>: Varios módulos Prolog para realizar 
+ tablas de verdad y demostraciones de deducción natural. 
+</li>
+<li><a href="http://www.lcc.uma.es/~pacog/sldDraw/">Herramienta para
+  dibujar Árboles de resolución</a>
+</li>
+<!--
+<li> <a href="http://www.euitio.uniovi.es/cgi-bin/plf/simplify.cgi">
+     CGI Simplificador de funciones</a> </li>
+-->
+</ul>
+
+<h3><a name="Notas">Notas</a></h3>
+
+<ul>
+<li>Curso 2008-2009
+ <ul>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0809/LogN0809P2.pdf">Segundo Parcial</a></li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0809/LogN0809P1.pdf">Primer Parcial</a></li>
+ </ul>
+</li>
+<li>Curso 2007-2008
+ <ul>
+ <li>Junio: 
+    <a href="http://www.di.uniovi.es/~labra/Logica/Curso0708/LogN0708_Ju.pdf">
+	 Ambos parciales</a></li>
+ <li>Febrero: 
+    <a href="http://www.di.uniovi.es/~labra/Logica/Curso0708/LogN0708_FeP1.pdf">
+	 Primer parcial</a>, 
+    <a href="http://www.di.uniovi.es/~labra/Logica/Curso0708/LogN0708_FeP2.pdf">
+     Segundo Parcial</a></li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0708/LogN0708_P2.pdf">
+     Segundo Parcial</a></li>
+ </ul>
+</li>
+<li>Curso 2006-2007
+<ul>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06SepP1.pdf">
+    Primer Parcial (Sept. 2007)</a>. Revisión: Miércoles, 26 Sept. 11h, Despacho Subdirección EUITIO, Valdés Salas</li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06SepP2.pdf">
+    Segundo Parcial (Sept. 2007)</a>. Revisión: Miércoles, 26 Sept. 11h, Despacho Subdirección EUITIO, Valdés Salas</li>
+
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06JunP1.pdf">
+    Primer Parcial (Junio 2007)</a></li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06JunP2.pdf">
+    Segundo Parcial (Junio 2007)</a></li>
+
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06FebP1.pdf">
+    Primer Parcial (Febrero 2007)</a></li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06FebP2.pdf">
+    Segundo Parcial (Febrero 2007)</a></li>
+ 
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06P2.pdf">
+    Segundo parcial (Enero 2007)</a></li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0607/LogN06P1.pdf">
+    Primer parcial (Noviembre 2006 revisadas)</a></li>
+</ul>
+</li>
+<li>Curso 2005-2006
+<ul>
+   <li>Septiembre 2006: 
+    <a href="http://www.di.uniovi.es/~labra/Logica/Curso0506/LogN05SepP1.pdf">
+    primer parcial</a> y 
+    <a href="http://www.di.uniovi.es/~labra/Logica/Curso0506/LogN05SepP2.pdf">
+    segundo parcial</a>
+   </li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0506/LogN05Jun.pdf">
+    Junio 2006</a>
+   </li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0506/LogN05P2F.pdf">
+    Segundo Parcial (Febrero 2006)</a>
+   </li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0506/LogN05P1F.pdf">
+    Primer Parcial (Febrero 2006)</a>
+   </li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0506/LogN05P2.pdf">
+    Segundo Parcial (Enero 2006)</a>
+   </li>
+</ul>
+</li>
+<li> Curso 2004-2005
+<ul>
+<li>Septiembre
+ <ul>
+  <li>Revisi&oacute;n de notas (teor&iacute;a y pr&aacute;ctica): Lunes, 26 de Sept. (12h), Laboratorio Tecn. Orientadas a Objetos, Facultad de Ciencias</li>
+  <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P1Sep.pdf">Primer Parcial</a></li>
+  <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P2Sep.pdf">Segundo Parcial</a></li>
+  <li><a href="http://www.cesaracebal.com/docencia/asignaturas/logica/notas/">Pr&aacute;cticas</a></li>
+ </ul>
+
+</li>
+<li>Junio
+ <ul>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04PracJun.pdf">Pr&aacute;cticas</a></li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P1Jun.pdf">Primer Parcial</a></li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P2Jun.pdf">Segundo Parcial</a></li>
+ </ul>
+</li>
+<li>Febrero
+  <ul>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04TeFeb.pdf">Teor&iacute;a</a></li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P1Feb.pdf">Primer Parcial</a></li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P2Feb.pdf">Segundo Parcial</a></li>
+  </ul>
+ 
+</li>
+<li><ul>
+   <li><a href="http://www.cesaracebal.com/docencia/asignaturas/logica/notas/">
+    Notas de Pr&aacute;cticas</a>
+   </li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P2.pdf">
+    Segundo Parcial</a>
+   </li>
+   <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0405/LogN04P1.pdf">
+    Primer Parcial</a>
+   </li>
+  </ul>
+  </li>
+</ul>
+</li>
+<li> Curso 2003-2004
+ <ul>
+<li> <a href="http://www.di.uniovi.es/~labra/Logica/Curso0304/LogN04Jun.PDF">
+    Junio</a>
+ </li>
+<li> <a href="http://www.di.uniovi.es/~labra/Logica/Curso0304/LogN04Feb.PDF">
+    Febrero</a>
+ </li>
+<li>
+ <a href="http://www.di.uniovi.es/~labra/Logica/Curso0304/LogN04P2.PDF">
+    Segundo Parcial</a>
+</li>
+ <li><a href="http://www.di.uniovi.es/~labra/Logica/Curso0304/LogN04P1.PDF">
+    Primer Parcial</a>
+ </li>
+ </ul>
+</li>
+<li> Curso 2002-2003
+ <ul>
+ <li><a 
+  href="http://www.di.uniovi.es/~labra/Logica/Curso0203/LogN03Ju.PDF">
+    Junio (incluidas notas de prácticas)</a></li>
+ <li><a 
+  href="http://www.di.uniovi.es/~labra/Logica/Curso0203/LogN03Fe.PDF">
+    Febrero</a></li>
+ <li><a 
+  href="http://www.di.uniovi.es/~labra/Logica/Curso0203/LogN03P2.PDF">
+    Segundo Parcial</a></li>
+ <li><a 
+  href="http://www.di.uniovi.es/~labra/Logica/Curso0203/LogN03P1.PDF">
+    Primer Parcial</a></li>
+ </ul>
+</li>
+<li> Curso 2001-2002
+ <ul>
+ <li><a href="Curso0102/LogN02Sep.pdf">Septiembre</a></li>
+ <li><a href="Curso0102/LogN02Jun.pdf">Junio</a></li>
+ <li><a href="Curso0102/LogN02Feb.pdf">Febrero</a></li>
+ <li><a href="Curso0102/LogN02P2.pdf">Segundo Parcial</a></li>
+ </ul>
+</li>
+<li> Curso 2000-2001. 
+     <ul>
+     <li><a href="Curso0001/LogN01Sep.pdf">Septiembre</a></li>
+     <li><a href="Curso0001/LogN01Jun.pdf">Junio</a></li>
+     <li> <a href="Curso0001/LogN01Feb.pdf">Febrero</a></li>
+     <li> <a href="Curso0001/EL00012p.pdf">Segundo Parcial</a></li>
+     </ul>
+</li>
+</ul>
+
+<h3><a name="Examenes">Exámenes y soluciones</a></h3>
+
+Todos los exámenes incluyen las soluciones.
+
+<ul>
+<li>Noviembre 2009 
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP1_0809.pdf">Parcial 1</a>)
+</li>
+<li>Junio de 2008 
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP1_Ju0708.pdf">Parcial 1</a>)
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP2_Ju0708.pdf">Parcial 2</a>)
+</li>
+<li>13 de Febrero de 2008 
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP1_Fe0708.pdf">Parcial 1</a>)
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP2_Fe0708.pdf">Parcial 2</a>)
+</li>
+<li>23 de Enero de 2008 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExLP20708.pdf">Parcial 2</a>)</li>
+<li>21 de Noviembre de 2007 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP107.pdf">Parcial 1</a>)</li>
+<li>16 de Febrero de 2007 
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFeP106.pdf">Parcial 1</a>),
+(<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFeP206.pdf">Parcial 2</a>)
+</li>
+ <li>15 de Noviembre de 2006 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP106.pdf">Parcial 1</a>)</li>
+ <li>12 Septiembre 2006 (
+  <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSepP1Test06.pdf">
+  Primer parcial, test</a>, 
+  <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSepP2Test06.pdf">
+  Segundo parcial, test</a>, 
+  <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSepDedNat06.pdf">
+  Deducci&oacute;n Natural</a>)
+ </li>
+ <li> 
+24 de Junio de 2006  (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExJun06.pdf">Parcial 1 y 2</a>) 
+</li>
+ <li> 
+16 de Febrero de 2006  (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExF106.pdf">Parcial 1</a> y 
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExF206.pdf">Parcial 2</a>
+)</li>
+ <li> 
+21 de Enero 2006 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP206.pdf">Parcial 2</a>
+)</li>
+ <li> 
+19 de Noviembre de 2005 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP106.pdf">Parcial 1</a>
+)</li>
+ <li> 
+15 de Febrero de 2005 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe05.pdf">Parcial 1 y 2</a>
+)</li>
+ <li> 
+22 de Enero de 2005 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP205.pdf">Parcial 2</a>
+)</li>
+ <li> 
+20 de Noviembre de 2004 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExP105.pdf">Parcial 1</a>
+)</li>
+
+ <li> 
+11 de Septiembre de 2004 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSe04.pdf">Parciales 1 y 2</a>
+)</li>
+ <li> 
+16 de Junio de 2004 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExJu04.pdf">Parciales 1 y 2</a>
+)</li>
+<li> 
+14 de Febrero de 2004 (
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe04P1.PDF">Primer Parcial</a>,
+<a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe04P2.PDF">Segundo Parcial</a>
+)</li>
+<li> 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExPa04P2.PDF">24 Enero 2004</a></li>
+<li> 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExPa04P1.PDF">15 Noviembre 2003</a></li>
+
+<li> <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSe03.pdf">Septiembre 2003</a></li>
+
+<li> <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExJu03.PDF">26 Junio 2003</a></li>
+<li> 15 Febrero 2003
+       <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe03P1.PDF">
+            Primer Parcial</a> 
+       <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe03P2.PDF">
+            Segundo Parcial</a> </li>
+<li> 25 Enero 2003
+       <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExPa03P2.PDF">
+       Segundo Parcial</a>
+</li>
+
+<li> 16 Noviembre 2002
+       <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExPa03P1.pdf">
+       Primer Parcial</a>
+</li>
+
+<li>2 de Septiembre de 2002 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSe02P1.pdf">Primer Parcial</a>, 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExSe02P2.pdf">Segundo Parcial</a>
+</li>
+ 
+<li>27 de Junio de 2002
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExJu02P1.pdf">Primer Parcial</a>, 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExJu02P2.pdf">Segundo Parcial</a>
+</li>
+<li> 14 de Febrero de 2002. 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe02P1.pdf">Primer Parcial</a>, 
+ <a href="http://www.di.uniovi.es/~labra/FTP/Logica/ExFe02P2.pdf">Segundo Parcial</a>
+</li>
+<li> 1 Febrero 2002
+       <a href="http://lsi.uniovi.es/~labra/FTP/El02p2.pdf">
+       Segundo Parcial</a>
+</li>
+
+<li> 10 Noviembre 2001
+       <a href="http://lsi.uniovi.es/~labra/FTP/El02p1.pdf">
+       Primer Parcial</a>
+</li>
+<li> 3 Septiembre 2001. 
+       <a href="http://lsi.uniovi.es/~labra/FTP/El01s2.pdf">
+       Segundo Parcial</a>,
+       <a href="http://lsi.uniovi.es/~labra/FTP/El01s1.pdf">
+       Primer Parcial</a></li>
+<li> 11 Junio 2001. <a href="http://lsi.uniovi.es/~labra/FTP/El01j2.pdf">
+       Segundo Parcial </a>, 
+       <a href="http://lsi.uniovi.es/~labra/FTP/El01j1.pdf">
+       Primer Parcial </a>.</li>
+<li> 14 Febrero 2001. <a href="http://lsi.uniovi.es/~labra/FTP/El01f2.pdf">
+       Segundo Parcial </a>, 
+       <a href="http://lsi.uniovi.es/~labra/FTP/El01f1.pdf">
+       Primer Parcial </a>.</li>
+<li> <a href="http://lsi.uniovi.es/~labra/FTP/El01p2.pdf">
+       Segundo parcial, 3 Febrero 2001</a>.
+</li>
+<li> Los ex&aacute;menes de otros a&ntilde;os se pueden encontrar en el 
+    cuaderno did&aacute;ctico n&uacute;m. 9 (ver 
+    <a href="#Apuntes">secci&oacute;n apuntes</a>)</li>
+</ul>
+
+<h3><a name="Practicas">Pr&aacute;cticas</a></h3>
+<ul>
+<li>Curso 2004-2005
+
+<ul>
+<li><a href="http://www.cesaracebal.com/docencia/asignaturas/logica/normas/">
+   Información Entrega de Prácticas</a></li>
+<li><a href="http://www.di.uniovi.es/~labra/Logica/Practicas/Grupos0405.html">
+   Informaci&oacute;n sobre Grupos de Pr&aacute;cticas</a></li> 
+<li>Pr&aacute;ctica 3 
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p304.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p304.pdf">PDF</a>) </li>
+<li>Pr&aacute;ctica 2 
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p204.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p204.pdf">PDF</a>) </li>
+<li>Pr&aacute;ctica 1 
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p104.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p104.pdf">PDF</a>) </li>
+</ul>
+</li>
+
+<li>Curso 2003-2004
+<ul>
+<li><a href="http://www.di.uniovi.es/~lobo/logica/EvaluacionFeb2004.doc">Información sobre la
+  evaluación de las prácticas</a></li>
+
+<li><a href="http://www.di.uniovi.es/~lobo/logica/index.htm">
+   Información sobre grupos y horarios del Profesor de Prácticas</a></li>
+<li>Práctica 5 
+ (<a href="http://www.di.uniovi.es/~labra/Logica/apuntes/prac/p503.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog503.pdf">PDF</a>) </li>
+<li>Práctica 4 
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog403.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog403.pdf">PDF</a>) </li>
+<li>Práctica 3 
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog303.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog303.pdf">PDF</a>) </li>
+<li>Práctica 2 
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog203.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog203.pdf">PDF</a>) </li>
+
+<li>Práctica 1 
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog103.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog103.pdf">PDF</a>) </li>
+</ul></li>
+
+<li>Curso 2003-2003
+<ul>
+ <li><em><strong>Los alumnos que vayan a entregar prácticas en
+    la convocatoria de Junio o Septiembre, deberán entregarlas el
+    día del exámen de dicha convocatoria</strong></em></li>
+ <li><em><strong>
+  <a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/pOblig02.pdf">
+      Enunciado Práctica obligatoria</a></strong></em><br/>
+      <a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/pistas02.html">
+       Pistas para el ejercicio del laberinto</a>
+ </li>
+ <li>Diciembre 2002 
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog102.html">HTML</a>)
+ (<a href="http://www.di.uniovi.es/~labra/FTP/Logica/prac/plog102.pdf">PDF</a>) </li>
+ </ul></li>
+</ul>
+
+<h3><a name="Estadisticas"></a>Estad&iacute;sticas</h3>
+
+Resumen estad&iacute;stico no oficial. Para obtener datos m&aacute;s fiables, 
+puede consultarse la secci&oacute;n de 
+estad&iacute;sticas de la p&aacute;gina dedicada al 
+<a href="http://www.euitio.uniovi.es/docencia/plancalidad/plancalidad.htm">plan de Calidad de la EUITIO</a>
+
+<table>
+<caption> Valores absolutos</caption>
+<tr>
+<td colspan="2" rowspan="2"> 
+</TD>
+<TD COLSPAN=3> Junio </TD>
+<TD COLSPAN=3> Septiembre </TD>
+<TD COLSPAN=3> Junio + Septiembre </TD>
+</TR>
+<TR>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+93-94</TD>
+<TD>
+Gesti&oacute;n</TD>
+<TD>82</TD>
+<TD>51</TD>
+<TD>48</TD>
+<TD>29</TD>
+<TD>23</TD>
+<TD>46</TD>
+<TD>1</TD>
+<TD>2</TD>
+<TD>0</TD>
+</TR>
+<TR>
+<TD>Sistemas</TD>
+<TD>90</TD>
+<TD>39</TD>
+<TD>42</TD>
+<TD>17</TD>
+<TD>25></TD>
+<TD>39></TD>
+<TD>2</TD>
+<TD>0</TD>
+<TD>1</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2"> 94-95
+</FONT>
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+61
+</TD>
+<TD>
+54
+</TD>
+<TD>
+46
+</TD>
+<TD>
+25
+</TD>
+<TD>
+25
+</TD>
+<TD>
+50
+</TD>
+<TD>
+3
+</TD>
+<TD>
+1
+</TD>
+<TD>
+1
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+78
+</TD>
+<TD>
+40
+</TD>
+<TD>
+47
+</TD>
+<TD>
+21
+</TD>
+<TD>
+16
+</TD>
+<TD>
+48
+</TD>
+<TD>
+2
+</TD>
+<TD>
+6
+</TD>
+<TD>
+2
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+95-96
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+50
+</TD>
+<TD>
+57
+</TD>
+<TD>
+38
+</TD>
+<TD>
+14
+</TD>
+<TD>
+27
+</TD>
+<TD>
+52
+</TD>
+<TD>
+3
+</TD>
+<TD>
+4
+</TD>
+<TD>
+2
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</FONT>
+</TD>
+<TD>
+75
+</TD>
+<TD>
+33
+</TD>
+<TD>
+45
+</TD>
+<TD>
+12
+</TD>
+<TD>
+16
+</TD>
+<TD>
+49
+</TD>
+<TD>
+2
+</TD>
+<TD>
+3
+</TD>
+<TD>
+0
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+96-97
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+69
+</TD>
+<TD>
+48
+</TD>
+<TD>
+45
+</TD>
+<TD>
+19
+</TD>
+<TD>
+19
+</TD>
+<TD>
+49
+</TD>
+<TD>
+3
+</TD>
+<TD>
+2
+</TD>
+<TD>
+1
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+75
+</TD>
+<TD>
+46
+</TD>
+<TD>
+28
+</TD>
+<TD>
+14
+</TD>
+<TD>
+20
+</TD>
+<TD>
+35
+</TD>
+<TD>
+7
+</TD>
+<TD>
+0
+</TD>
+<TD>
+2
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+97-98
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+37
+</TD>
+<TD>
+72
+</TD>
+<TD>
+49
+</TD>
+<TD>
+30
+</TD>
+<TD>
+36
+</TD>
+<TD>
+52
+</TD>
+<TD>
+3
+</TD>
+<TD>
+2
+</TD>
+<TD>
+3
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+61
+</TD>
+<TD>
+63
+</TD>
+<TD>
+54
+</TD>
+<TD>
+31
+</TD>
+<TD>
+28
+</TD>
+<TD>
+54
+</TD>
+<TD>
+4
+</TD>
+<TD>
+3
+</TD>
+<TD>
+3
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN=2>
+98-99
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+49
+</TD>
+<TD>
+62
+</TD>
+<TD>
+54
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+93
+</TD>
+<TD>
+27
+</TD>
+<TD>
+49
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+</TR>
+</TABLE>
+
+<table>
+<caption>Porcentajes</caption>
+<tr>
+<td COLSPAN="2" ROWSPAN=2> </td>
+<td COLSPAN="3"> Junio </td>
+<td COLSPAN="3"> Septiembre </td>
+<td COLSPAN="3"> Junio + Septiembre </td>
+</tr>
+<tr>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+<TD>Aprob</TD>
+<TD>Susp</TD>
+<TD>Renun</TD>
+</TR>
+<TR><TD ROWSPAN="2"> 93-94 </TD>
+<TD> Gesti&oacute;n </TD>
+<TD>
+45%
+</TD>
+<TD>
+29%
+</TD>
+<TD>
+26%
+</TD>
+<TD>
+30%
+</TD>
+<TD>
+23%
+</TD>
+<TD>
+47%
+</TD>
+<TD>
+62%
+</TD>
+<TD>
+13%
+</TD>
+<TD>
+25%
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+52%
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+21%
+</TD>
+<TD>
+31%
+</TD>
+<TD>
+48%
+</TD>
+<TD>
+62%
+</TD>
+<TD>
+15%
+</TD>
+<TD>
+23%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2">
+94-95
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+39%
+</TD>
+<TD>
+33%
+</TD>
+<TD>
+28%
+</TD>
+<TD>
+25%
+</TD>
+<TD>
+25%
+</TD>
+<TD>
+50%
+</font>
+</TD>
+<TD>
+54%
+</TD>
+<TD>
+15%
+</TD>
+<TD>
+31%
+</TD>
+</TR>
+<TR>
+<TD> 
+Sistemas
+</TD>
+<TD>
+48%
+</font>
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+28%
+</TD>
+<TD>
+25%
+</font>
+</TD>
+<TD>
+19%
+</TD>
+<TD>
+56%
+</TD>
+<TD>
+60%
+</TD>
+<TD>
+10%
+</TD>
+<TD>
+29%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2">
+95-96
+</TD>
+<TD>
+Gesti&oacute;n
+</font>
+</TD>
+<TD>
+35%
+</TD>
+<TD>
+39%
+</TD>
+<TD>
+26%
+</TD>
+<TD>
+16%
+</TD>
+<TD>
+29%
+</TD>
+<TD>
+55%
+</TD>
+<TD>
+45%
+</TD>
+<TD>
+18%
+</font>
+</TD>
+<TD>
+</TD>
+</TR>
+<TR><TD>Sistemas</TD>
+<TD>
+50%
+</TD>
+<TD>
+21%
+</TD>
+<TD>
+29%
+</TD>
+<TD>
+16%
+</TD>
+<TD>
+21%
+</TD>
+<TD>
+63%
+</TD>
+<TD>
+57%
+</TD>
+<TD>
+10%
+</TD>
+<TD>
+32%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2">
+96-97
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+42%
+</TD>
+<TD>
+30%
+</TD>
+<TD>
+28%
+</TD>
+<TD>
+22%
+</TD>
+<TD>
+22%
+</TD>
+<TD>
+56%
+</TD>
+<TD>
+55%
+</TD>
+<TD>
+13%
+</TD>
+<TD>
+31%
+</TD>
+</TR>
+<TR><TD>
+Sistemas
+</TD>
+<TD>
+50%
+</TD>
+<TD>
+31%
+</TD>
+<TD>
+19%
+</TD>
+<TD>
+20%
+</TD>
+<TD>
+29%
+</TD>
+<TD>
+51%
+</TD>
+<TD>
+60%
+</TD>
+<TD>
+13%
+</TD>
+<TD>
+23%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2">
+97-98
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+24%
+</TD>
+<TD>
+45%
+</TD>
+<TD>
+31%
+</TD>
+<TD>
+26%
+</TD>
+<TD>
+30%
+</TD>
+<TD>
+44%
+</TD>
+<TD>
+44%
+</TD>
+<TD>
+23%
+</TD>
+<TD>
+33%
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+35%
+</TD>
+<TD>
+35%
+</TD>
+<TD>
+30%
+</TD>
+<TD>
+28%
+</TD>
+<TD>
+25%
+</TD>
+<TD>
+47%
+</TD>
+<TD>
+53%
+</TD>
+<TD>
+16%
+</TD>
+<TD>
+31%
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="2">
+98-99
+</TD>
+<TD>
+Gesti&oacute;n
+</TD>
+<TD>
+30%
+</TD>
+<TD>
+37%
+</TD>
+<TD>
+33%
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+<TD>
+</TD>
+</TR>
+<TR>
+<TD>
+Sistemas
+</TD>
+<TD>
+55%
+</TD>
+<td>
+27%
+</td>
+<td>
+29%
+</td>
+<td>
+</td>
+<td> 
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
+
+
+<div class="center">
+<p><a href="http://www.anybrowser.org/campaign/">
+  <img src="../images/anyBrowser.gif" border="0" 
+       width="88" 
+       height="31" 
+       alt="Viewable With Any Browser" /></a>
+</p>
+
+<address> 
+ Author: <a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a> 
+ <br/>
+ Last Updated: <tt> $Date: 2007/11/21 23:21:02 $ </tt>			 	
+</address>		
+
+<!--Google Analytics -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-645569-3";
+urchinTracker();
+</script>
+
+</div>
+
+
+</body>
+</html>

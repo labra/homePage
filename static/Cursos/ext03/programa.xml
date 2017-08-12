@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="programa.xsl"?>
+<programa>
+	<sesion fecha="Miércoles, 12/3/2003" hora="18 - 21h" 
+                titulo="Fundamentos de Internet: HTML y Hojas de estilos">
+		<profe ref="labra" />
+		<item>Fundamentos de Internet</item>
+		<item>Protocolos</item>
+		<item>WWW</item>
+		<material slides="FundInternet.pdf" />
+	</sesion>
+	<sesion fecha="Jueves, 13/3/2003" hora="18-21h" titulo="HTML y Hojas de estilos">
+		<profe ref="labra" />
+		<item>HTML</item>
+		<item>Hojas de estilos</item>
+		<material slides="FundInternet.pdf"  
+                          files="FundInternet.tar.gz" />
+	</sesion>
+	<sesion fecha="Viernes, 14/3/2003" hora="18-21h" titulo="XML">
+		<profe ref="labra" />
+		<item>XML</item>
+		<item>DTD</item>
+		<item>Espacios de nombres</item>
+		<item>Enlaces y referencias</item>
+		<item>XML Schemas</item>
+		<material slides="XML.pdf" 
+                          files="XML.tar.gz" />
+	</sesion>
+	<sesion fecha="Lunes, 17/3/2003" hora="18-21h" 
+                titulo="XML Schemas y Transformación de documentos">
+		<profe ref="labra" />
+		<item>XMLXSLT</item>
+		<material slides="XML.pdf" 
+                          files="XML.tar.gz" />
+	</sesion>
+	<sesion fecha="Martes, 18/3/2003" hora="18-21h" 
+                titulo="Transformación de documentos">
+		<profe ref="guti" />
+		<item>XSLT</item>
+		<item>XSL-FO</item>
+		<material slides="TransXML.pdf" 
+                          files="TransXML.zip" />
+	</sesion>
+	<sesion fecha="Miércoles, 19/3/2003" hora="18-21h" titulo="Programación XML">
+		<profe ref="dani" />
+		<item>Programación XML: SAX y DOM</item>
+		<material slides="ProgXML.pdf" 
+                          files="ProgXML.zip" />
+	</sesion>
+	<sesion fecha="Jueves, 20/3/2003" hora="18-21h" titulo="Programación XML">
+		<profe ref="dani" />
+		<item>Programación XML</item>
+		<material slides="ProgXML.pdf" 
+                          files="ProgXML.zip" />
+	</sesion>
+	<sesion fecha="Lunes, 24/3/2003" hora="18-21h" titulo="Servicios Web">
+		<profe ref="dani" />
+		<item>Servicios Web</item>
+		<material slides="ServWeb.pdf" 
+                          files="ServWeb.zip" />
+	</sesion>
+	<sesion fecha="Martes, 25/3/2003" hora="18-21h" titulo="Web semántica">
+		<profe ref="labra" />
+		<item>Web semántica</item>
+		<material slides="SemWeb.pdf" 
+                          files="SemWeb.tar.gz" />
+	</sesion>
+	<sesion fecha="Miércoles, 26/3/2003" hora="18-19h" titulo="Web semántica">
+		<profe ref="labra" />
+		<item>Web semántica</item>
+		<material slides="SemWeb.pdf" 
+                          files="SemWeb.tar.gz" />
+	</sesion>
+	<sesion fecha="Miércoles, 26/3/2003" hora="19-21h" titulo="XML y Bases de datos">
+		<profe ref="cesar" />
+		<item>XML y Bases de datos</item>
+		<material slides="XMLBasesDatos.pdf" 
+                          files="XMLBasesDatos.zip" />
+	</sesion>
+</programa>

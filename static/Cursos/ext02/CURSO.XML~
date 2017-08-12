@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="curso.xsl"?>
+<!DOCTYPE curso [
+<!ELEMENT curso (direccion,fechas,lugar,plazas,derechos,requisitos,tipo,objetivos,programa,evaluacion,alumnos)>
+<!ATTLIST curso titulo CDATA #REQUIRED>
+<!ELEMENT direccion  EMPTY>
+<!ATTLIST direccion  ref NMTOKEN #REQUIRED>
+<!ELEMENT fechas     (#PCDATA)>
+<!ELEMENT reflugar   EMPTY>
+<!ATTLIST reflugar   ref NMTOKEN #REQUIRED>
+<!ELEMENT plazas     (#PCDATA)>
+<!ELEMENT derechos   (#PCDATA)>
+<!ELEMENT requisitos (#PCDATA)>
+<!ELEMENT tipo       (#PCDATA)>
+<!ELEMENT objetivos  (#PCDATA|p)*>
+<!ENTITY programa   SYSTEM "programa.xml">
+<!ENTITY % programaDTD SYSTEM "programa.dtd">
+%programaDTD;
+<!ELEMENT evaluacion (#PCDATA|p|ul)*>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT ul (li*)>
+<!ELEMENT li (#PCDATA)>
+<!ENTITY alumnos    SYSTEM "alumnos.xml">
+<!ENTITY % alumnosDTD SYSTEM "alumnos.dtd">
+%alumnosDTD;
+<!ENTITY enlaces    SYSTEM "enlaces.xml">
+<!ENTITY % enlacesDTD SYSTEM "enlaces.dtd">
+%enlacesDTD;
+]>
+<curso titulo="Representación de la información en Internet: Hipertexto, XML y Web semántica">
+ <direccion ref="labra"/>
+ <fechas>18 al 27 de Marzo de 2002</fechas>
+ <reflugar ref="euitio"/>
+ <plazas>25</plazas>
+ <derechos>167,14</derechos>
+ <requisitos>Conocimientos de informática</requisitos>
+ <tipo>Homologable por 4.5 créditos de libre configuración</tipo>
+ <objetivos>
+ <p>En este curso se presentan las principales tecnologías que facilitan la representación de información 
+ en Internet. 
+ El curso comienza con una presentación de la tecnología hipertexto mediante el lenguaje HTML, que ha sido 
+ el principal impulsor del desarrollo de la World Wide Web. Posteriormente, se presentarán las hojas de estilo 
+ mediante el lenguaje CSS que facilitan la separación del contenido de su representación visual, mejorando 
+ el mantenimiento de la información.
+ </p>
+ <p>El núcleo del curso se centrará en la tecnología XML y sus aplicaciones. 
+ La tecnología XML facilita la creación de información semiestructurada que puede adaptarse a los campos de 
+ aplicación concretos. XML facilita el intercambio de información y ha sido adoptado por las principales 
+ industrias informáticas. 
+ El lenguaje XSLT + Xpath permite representar la información contenida en los documentos XML.
+ A continuación se presentarán varios vocabularios basados en XML, 
+ como WML, VoiceXML, MathML, SMIL, etc. 
+ </p>
+ <p>
+ Finalmente, se realizará una introducción a los nuevos avances que se están desarrollando en el campo, 
+ como el desarrollo de servicios Web y la creación de la Web semántica mediante el lenguaje de 
+ desacripción de recursos RDF.</p>
+</objetivos>
+&programa;
+<evaluacion>
+<p>
+ La evaluación del curso se desarrollará mediante un trabajo 
+ práctico que consistirá en la realización de un pequeño sitio Web utilizando 
+ algunas de las tecnologías XML presentadas en el curso. 
+</p>
+<p> En el sitio Web se deben incluir los siguientes enlaces
+  obligatorios</p> 
+<ul>
+<li>Descripción</li>
+<li>Tecnología empleada</li>
+</ul>
+</evaluacion>
+&alumnos;
+&enlaces;
+</curso>
+
+
+

@@ -1,0 +1,2 @@
+curso: 
+	xsltproc -o index.html curso.xsl curso.xml

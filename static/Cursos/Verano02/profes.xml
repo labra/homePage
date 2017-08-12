@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="profes.xsl"?>
+<!DOCTYPE profes [
+<!ELEMENT profes (profesor*)>
+<!ELEMENT profesor EMPTY>
+<!ATTLIST profesor id     ID #REQUIRED
+                   href   CDATA #IMPLIED
+		   nombre CDATA #REQUIRED
+		   lugar  CDATA #IMPLIED>
+]>
+<profes>
+<profesor id ="labra"
+       href="http://lsi.uniovi.es/~labra" 
+       nombre="Jose Emilio Labra Gayo"
+       lugar="Departamento de Informática, Universidad de Oviedo"/> 
+
+<profesor id ="guti"
+       href="http://www.di.uniovi.es/~cernuda" 
+       nombre="Agustín Cernuda del Río"
+       lugar="Departamento de Informática, Universidad de Oviedo"/> 
+
+<profesor id ="belen"
+       href="http://www.di.uniovi.es/~belen" 
+       nombre="Ana Belén Martínez Prieto"
+       lugar="Departamento de Informática, Universidad de Oviedo"/> 
+
+<profesor id ="dani"
+       href="http://www.di.uniovi.es/~dani" 
+       nombre="Daniel Gayo Avello"
+       lugar="Departamento de Informática, Universidad de Oviedo"/> 
+
+</profes>

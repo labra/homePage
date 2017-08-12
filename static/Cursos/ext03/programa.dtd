@@ -1,0 +1,11 @@
+<!ELEMENT programa (sesion*)>
+<!ELEMENT sesion (profe*,item*,material?)>
+<!ATTLIST sesion fecha CDATA #REQUIRED>
+<!ATTLIST sesion hora CDATA #REQUIRED>
+<!ATTLIST sesion titulo CDATA #REQUIRED>
+<!ELEMENT profe EMPTY>
+<!ATTLIST profe ref NMTOKEN #REQUIRED>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT material EMPTY>
+<!ATTLIST material slides CDATA #IMPLIED
+                   files CDATA #IMPLIED>

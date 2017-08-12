@@ -1,0 +1,10 @@
+<!ELEMENT alumnos (alum*)>
+<!ATTLIST alumnos xmlns CDATA #IMPLIED>
+<!ELEMENT alum EMPTY>
+<!ATTLIST alum dni   CDATA #REQUIRED
+               apell CDATA #REQUIRED
+               nombre CDATA #REQUIRED
+               email CDATA #REQUIRED
+               pagina CDATA #REQUIRED
+               nota CDATA #REQUIRED>
+

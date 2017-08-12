@@ -1,0 +1,923 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Lógica, Programa Detallado</TITLE>
+<META NAME="Template" CONTENT="C:\ARCHIVOS DE PROGRAMA\MICROSOFT OFFICE\OFFICE\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BACKGROUND="../Images/BackGreys.GIF">
+
+<B><FONT FACE="Arial" SIZE=5><P>L&oacute;gica, Curso 98-99 (Programa Detallado)</P>
+</FONT><FONT SIZE=2><P>&nbsp;</P></B></FONT>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=623>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#ffff00">
+
+<UL>
+<LI><A HREF="#Objetivos">Objetivos</A> </LI>
+<LI><A HREF="#Evaluaci&oacute;n">Evaluaci&oacute;n</A> </LI>
+<LI><A HREF="#Contenidos">Contenidos</A> </LI>
+<LI><A HREF="#Bibliograf&iacute;a">Bibliograf&iacute;a</A> </LI>
+<LI><A HREF="#DistribucionTemporal">Distribuci&oacute;n Temporal</A></UL>
+</TD>
+</TR>
+</TABLE>
+
+<B><FONT SIZE=2><P>&nbsp;</P></B></FONT>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=666>
+<TR><TD WIDTH="50%" VALIGN="TOP">
+<P><B><FONT SIZE=2>Tipo:</B> <I>Obligatoria</I></FONT></TD>
+<TD WIDTH="50%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="RIGHT">(<I>Gesti&oacute;n/Sistemas</I>)</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=2><P>&nbsp;</P></FONT>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=666>
+<TR><TD WIDTH="15%" VALIGN="TOP">
+<P><FONT SIZE=2>CREDITOS:</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="JUSTIFY">3&#9;Teor&iacute;a </P>
+<P ALIGN="JUSTIFY">3&#9;Tablero</FONT></TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<B><FONT SIZE=2><P ALIGN="RIGHT">Curso:</B></FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P>Primero</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=2><P>&nbsp;</P></FONT>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=666>
+<TR><TD WIDTH="15%" VALIGN="TOP">
+<P><FONT SIZE=2>Horas Te&oacute;ricas</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT SIZE=2><P ALIGN="JUSTIFY">2 semanales</FONT></TD>
+<TD WIDTH="37%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="13%" VALIGN="TOP">
+<P>&nbsp;</TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=2><P>&nbsp;</P></FONT>
+<TABLE CELLSPACING=0 BORDER=0 CELLPADDING=4 WIDTH=666>
+<TR><TD WIDTH="19%" VALIGN="TOP">
+<P><B><I><FONT SIZE=2>Periodo de docencia</B></I></FONT></TD>
+<TD WIDTH="16%" VALIGN="TOP">
+<FONT SIZE=2><P>Anual</FONT></TD>
+<TD WIDTH="65%" VALIGN="TOP">
+<FONT SIZE=2><P>Octubre – Junio</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=2><P>&nbsp;</P></FONT>
+<P ALIGN="RIGHT"><TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=4 WIDTH=388>
+<TR><TD WIDTH="37%" VALIGN="TOP">
+<P><B><FONT SIZE=2>Departamento</B></FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT SIZE=2><P>Inform&aacute;tica</FONT></TD>
+</TR>
+<TR><TD WIDTH="37%" VALIGN="TOP">
+<B><FONT SIZE=2><P>&Aacute;rea de Conocimiento</B></FONT></TD>
+<TD WIDTH="63%" VALIGN="TOP">
+<FONT SIZE=2><P>Lenguajes y Sistemas Inform&aacute;ticos</FONT></TD>
+</TR>
+</TABLE>
+</P>
+
+<P>&nbsp;</P>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=4 WIDTH=467>
+<TR><TD WIDTH="62%" VALIGN="TOP">
+<P ALIGN="CENTER"><I><FONT SIZE=2>Profesor/es</I></FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP">
+<I><FONT SIZE=2><P ALIGN="CENTER">Responsables de grupo</I></FONT></TD>
+</TR>
+<TR><TD WIDTH="62%" VALIGN="TOP"><DIR>
+
+<P ALIGN="JUSTIFY"><A HREF="mailto:anaisabel@lsi.uniovi.es">Ana Isabel Fern&aacute;ndez Mart&iacute;nez</A></DIR>
+</TD>
+<TD WIDTH="38%" VALIGN="TOP"><DIR>
+
+<FONT SIZE=2><P>Grupos Teor&iacute;a B, C</DIR>
+</FONT></TD>
+</TR>
+<TR><TD WIDTH="62%" VALIGN="TOP"><DIR>
+
+<P ALIGN="JUSTIFY"><A HREF="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</A></DIR>
+</TD>
+<TD WIDTH="38%" VALIGN="TOP"><DIR>
+
+<FONT SIZE=2><P>Grupo Teor&iacute;a, A</DIR>
+</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=2><P>&nbsp;</P>
+</FONT><FONT FACE="Arial" SIZE=4><P><A NAME="Objetivos"></A>Objetivos</P>
+</FONT><FONT SIZE=2><P>&nbsp;Proporcionar unos conocimientos b&aacute;sicos de l&oacute;gica matem&aacute;tica que sirvan de base al alumno para introducirse en campos espec&iacute;ficos de la inform&aacute;tica como: teor&iacute;a de circuitos l&oacute;gicos, an&aacute;lisis de algoritmos, verificaci&oacute;n de programas, sistemas de especificaci&oacute;n formal, programaci&oacute;n l&oacute;gica, sistemas expertos, l&oacute;gica difusa, etc.</P>
+<P>Como un objetivo m&aacute;s global, proporcionar unas bases adecuadas para la adquisici&oacute;n de una capacidad de razonamiento l&oacute;gico formalizado &uacute;til en cualquier otra disciplina.</P>
+<P>&nbsp;</P>
+</FONT><FONT FACE="Arial" SIZE=4><P><A NAME="Evaluación"></A>Evaluaci&oacute;n</P>
+</FONT><FONT SIZE=2><P>&nbsp;</P>
+<P>La evaluaci&oacute;n consistir&aacute; en un examen parcial y un examen final en Junio. La nota del parcial s&oacute;lo se conservar&aacute; para la convocatoria de Junio. Dependiendo del desarrollo del curso, se estudiar&aacute; la posibilidad de realizar un segundo parcial.</P>
+<P>A lo largo del curso se propondr&aacute;n una serie de pr&aacute;cticas obligatorias de programaci&oacute;n en lenguaje Prolog, cuya realizaci&oacute;n es necesaria para superar la asignatura.</P>
+</FONT><FONT FACE="Arial" SIZE=4><P>&nbsp;</P>
+<P><A NAME="Contenidos"></A>Contenidos</P>
+</FONT><B><I><P>1.&#9;Introducci&oacute;n</P><DIR>
+
+</I><P>1.1.&#9;Definici&oacute;n</P>
+<P>1.2.&#9;Evoluci&oacute;n</P>
+<P>1.3.&#9;Aplicaciones Actuales</P></DIR>
+
+<I><P>2.&#9;L&oacute;gica Proposicional</P><DIR>
+
+</I><P>2.1.&#9;Definici&oacute;n</P>
+<P>2.2.&#9;Sintaxis</P>
+</B><FONT SIZE=2><P>2.2.1.&#9;Alfabeto</P>
+<P>2.2.2.&#9;F&oacute;rmulas proposicionales</P>
+<P>2.2.3.&#9;Formalizaci&oacute;n de frases</P>
+</FONT><B><P>2.3.&#9;M&eacute;todos Sem&aacute;nticos</P>
+</B><FONT SIZE=2><P>2.3.1.&#9;Interpretaci&oacute;n</P>
+<P>2.3.2.&#9;Valor de una f&oacute;rmula</P>
+<P>2.3.3.&#9;Clasificaci&oacute;n</P>
+<P>2.3.4.&#9;Equivalencia L&oacute;gica</P><DIR>
+
+<P>Definici&oacute;n</P>
+<P>Leyes</P></DIR>
+
+<P>2.3.5.&#9;Razonamientos y Consecuencia L&oacute;gica</P><DIR>
+
+<P>Definici&oacute;n</P>
+<P>Teorema</P></DIR>
+
+<P>2.3.6.&#9;T&eacute;cnicas de Estudio de razonamientos</P><DIR>
+
+<P>Tablas de Verdad</P>
+<P>&Aacute;rboles Sem&aacute;nticos</P>
+<P>Contradicci&oacute;n</P>
+<P>Resoluci&oacute;n proposicional</P>
+<P>Formas normales</P><DIR>
+
+<P>Forma normal Conjuntiva y disyuntiva</P>
+<P>Forma clausal</P></DIR>
+
+<P>Algoritmo de resoluci&oacute;n proposicional</P>
+<P>Teorema de Consistencia</P>
+<P>Teorema de Completud*</P>
+<P>Estrategias de Resoluci&oacute;n</P>
+<P>Cuadros Sem&aacute;nticos</P></DIR>
+
+</FONT><B><P>2.4.&#9;Aplicaci&oacute;n al dise&ntilde;o de Circuitos: &Aacute;lgebra de Boole</P>
+</B><FONT SIZE=2><P>Definici&oacute;n y postulados</P>
+<P>Teoremas</P>
+<P>Funciones booleanas</P>
+<P>Formas can&oacute;nicas</P>
+<P>Minimizaci&oacute;n de funciones booleanas</P><DIR>
+
+<P>M&eacute;todo de Karnaugh</P>
+<P>T&eacute;rminos adyacentes</P>
+<P>Algoritmo de simplificaci&oacute;n</P>
+<P>Funciones incompletas</P>
+<P>M&eacute;todo de McCluskey</P></DIR>
+
+</FONT><B><P>2.5.&#9;M&eacute;todos Axiom&aacute;ticos: Sistemas formales</P>
+</B><FONT SIZE=2><P>2.5.1.&#9;Deducci&oacute;n Natural (Sistema de Gentzen)</P><DIR>
+
+<P>Reglas de Inferencia</P>
+<P>C&aacute;culo secuencial*</P></DIR>
+
+<P>2.5.2.&#9;Sistema de Hilbert</P>
+<P>2.5.3.&#9;Sistema ecuacional</P></DIR>
+
+</FONT><B><I><P>3.&#9;L&oacute;gica de Predicados de Primer Orden</P><DIR>
+
+</I><P>3.1.&#9;Definici&oacute;n y justificaci&oacute;n</P>
+<P>3.2.&#9;Sintaxis</P>
+</B><FONT SIZE=2><P>3.2.1.&#9;Alfabeto</P>
+<P>3.2.2.&#9;T&eacute;rmino</P>
+<P>3.2.3.&#9;&Aacute;tomo</P>
+<P>3.2.4.&#9;F&oacute;rmula</P>
+<P>3.2.5.&#9;&Aacute;mbito: variable libre/ligada</P>
+<P>3.2.6.&#9;Formalizaci&oacute;n de frases</P>
+<P>3.2.7.&#9;Otros &oacute;rdenes</P>
+</FONT><B><P>3.3.&#9;Sem&aacute;ntica</P>
+</B><FONT SIZE=2><P>3.3.1.&#9;Interpretaci&oacute;n</P>
+<P>3.3.2.&#9;Valor de una f&oacute;rmula</P>
+<P>3.3.3.&#9;Clasificaci&oacute;n</P><DIR>
+
+<P>Satisfacible</P>
+<P>Insatisfacible</P>
+<P>V&aacute;lida</P></DIR>
+
+<P>3.3.4.&#9;Equivalencia L&oacute;gica</P><DIR>
+
+<P>Definici&oacute;n</P>
+<P>Leyes sin cuantificadores</P>
+<P>Leyes con cuantificadores</P></DIR>
+
+<P>3.3.5.&#9;Consecuencia L&oacute;gica</P><DIR>
+
+<P>Definici&oacute;n</P>
+<P>Teorema</P></DIR>
+
+<P>3.3.6.&#9;T&eacute;cnicas de estudio de razonamientos</P><DIR>
+
+<P>Resoluci&oacute;n General</P>
+<P>Formas Normales</P><DIR>
+
+<P>Forma normal prenexa</P>
+<P>Forma normal conjuntiva/disyuntiva prenexa</P>
+<P>Forma normal de Skolem</P>
+<P>Forma Clausal</P></DIR>
+
+<P>Substituci&oacute;n</P><DIR>
+
+<P>Definici&oacute;n</P>
+<P>Composici&oacute;n de substituciones</P>
+<P>Propiedades de la composici&oacute;n</P>
+<P>Substituci&oacute;n de renombramiento (expresiones variantes)</P></DIR>
+
+<P>Unificaci&oacute;n</P><DIR>
+
+<P>Unificador</P>
+<P>Unificador m&aacute;s general</P>
+<P>Conjunto de Discrepancias</P>
+<P>Algoritmo de Unificaci&oacute;n</P>
+<P>Chequeo de ocurrencias</P></DIR>
+
+<P>Algoritmo de Resoluci&oacute;n general</P><DIR>
+
+<P>Definici&oacute;n</P>
+<P>Consistencia</P>
+<P>Completud</P>
+<P>Modelos de Herbrand</P>
+<P>Estrategias de Resoluci&oacute;n</P></DIR>
+</DIR>
+
+</FONT><B><P>3.4.&#9;Sistemas Formales*</P>
+</B><FONT SIZE=2><P>3.4.1.&#9;Deducci&oacute;n Natural (Sistema de Gentzen)*</P>
+<P>3.4.2.&#9;Sistema de Hiltbert</P></DIR>
+
+</FONT><B><I><P>4.&#9;L&oacute;gica Aplicada a la Inform&aacute;tica</P><DIR>
+
+</I><P>4.1.&#9;Programaci&oacute;n L&oacute;gica</P>
+</B><FONT SIZE=2><P>4.1.1.&#9;Resoluci&oacute;n SLD</P><DIR>
+
+<P>Cl&aacute;usulas Horn</P>
+<P>Regla de computaci&oacute;n</P>
+<P>Regla de B&uacute;squeda</P>
+<P>Resoluci&oacute;n SLD</P>
+<P>&Aacute;rbol SLD</P>
+<P>Estrategias de recorrido</P>
+<P>Primero en profundidad</P>
+<P>Primero en Anchura</P></DIR>
+
+<P>4.1.2.&#9;Lenguaje Prolog</P><DIR>
+
+<P>Hechos</P>
+<P>Reglas simples</P>
+<P>Reglas con variables</P>
+<P>Reglas recursivas</P>
+<P>T&eacute;rminos compuestos</P>
+<P>Listas</P>
+<P>Definici&oacute;n</P>
+<P>Ejemplos</P>
+<P>Aritm&eacute;tica</P></DIR>
+
+</FONT><B><P>4.2.&#9;Especificaci&oacute;n de Programas: Sistema Z</P>
+<P>4.3.&#9;Verificaci&oacute;n de Programas</P>
+</B><FONT SIZE=2><P>4.3.1.&#9;Definiciones: Precondici&oacute;n, Postcondici&oacute;n, Aserci&oacute;n</P>
+<P>4.3.2.&#9;Asignaci&oacute;n y secuencia</P>
+<P>4.3.3.&#9;Condicional</P>
+<P>4.3.4.&#9;Bucles y arrays: Invariantes</P></DIR>
+
+</FONT><B><I><P>5.&#9;Otras L&oacute;gicas</P><DIR>
+
+</I><P>5.1.&#9;L&oacute;gica de predicados de Orden Superior</P>
+<P>5.2.&#9;L&oacute;gica de Clases/Relaciones</P>
+<P>5.3.&#9;L&oacute;gica de Predicados con Identidad</P>
+<P>5.4.&#9;L&oacute;gica Modal</P>
+<P>5.5.&#9;L&oacute;gica Temporal</P>
+<P>5.6.&#9;L&oacute;gica polivalente</P>
+<P>5.7.&#9;L&oacute;gica Borrosa</P>
+</B><FONT SIZE=2><P>5.7.1.&#9;Definici&oacute;n</P>
+<P>5.7.2.&#9;Operadores</P>
+<P>5.7.3.&#9;Modificadores ling&uuml;&iacute;sticos</P>
+<P>5.7.4.&#9;Inferencia Borrosa</P>
+<P>&nbsp;</P></DIR>
+
+</FONT><B><FONT FACE="Arial"><P>Nota</B>: Los temas que aparecen marcados con (*) se impartir&aacute;n en funci&oacute;n del desarrollo del curso. Los temas subrayados con l&iacute;nea discontinua no se impartir&aacute;n.</P>
+</FONT><FONT FACE="Arial" SIZE=4><P>&nbsp;</P>
+<P><A NAME="Bibliografía"></A>Bibliograf&iacute;a</P></FONT>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#c0c0c0" WIDTH=548>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P><FONT FACE="Arial" SIZE=4>&nbsp;</FONT>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>Jose E. Labra G., <I>Bases te&oacute;ricas de las t&eacute;cnicas de Demostraci&oacute;n Autom&aacute;tica</P>
+</I><P>Dpto. Matem&aacute;ticas. Universidad de Oviedo. Cuadernos Did&aacute;cticos nº77 (1993)</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>Jos&eacute; Cuena, <I>L&oacute;gica Inform&aacute;tica</P>
+</I><P>Alianza Inform&aacute;tica (1985)</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>M. Ben-Ari, </FONT><I><FONT FACE="Times,Times New Roman" SIZE=2>Mathematical Logic for Computer Science</P>
+</I><P>Prentice Hall International (1993)</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>Gregorio Fern&aacute;ndez, Fernando S&aacute;ez Vacas, <I>Fundamentos de Inform&aacute;tica</P>
+</I></FONT><FONT FACE="Times,Times New Roman" SIZE=2><P>Alianza Inform&aacute;tica, Parte I. (1987)</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>Sperschneider, Antoniou, <I>Logic: A foundation for Computer Science</P>
+<P> </I>Addison-Wesley (1991)</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>Leon Sterling, Ehud Shapiro, <I>The Art Of Prolog </P>
+</I><P>The MIT Press 2nd. Ed. (1994)</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>M. Fitting, <I>First Order Logic and Automated Theorem Proving</P>
+</I><P>Springer-Verlag, 2nd Ed , ISBN: 0-387-94593-8, 1996</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>W. K. Grassmann, J. Tremblay, <I>Matem&aacute;tica Discreta y L&oacute;gica</P>
+</I><P>Prentice-Hall, ISBN: 84-89660-04-2, 1996</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>D. Gries, F.B. Schneider, <I>A Logical Approach to Discrete Math</P>
+</I><P>Springer-Verlag, Nueva York, 1994</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>J. Kelly, <I>The Essence of Logic</P>
+</I><P>Prentice Hall, ISBN: 0133963756, 1997</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>K. Broda, S. Eisenbach, H. Khoshnevisan, S. Vickers, <I>Reasoned Programming</P>
+</I><P>Prentice-Hall, ISBN: 0-13-098831-6, 1994</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>E. Burke, E. Foxley, <I>Logic and its Applications</P>
+</I><P>Prentice-Hall, ISBN: 0-13-030263-5, 1996</FONT></TD>
+</TR>
+<TR><TD WIDTH="12%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="88%" VALIGN="TOP">
+<FONT SIZE=2><P>E.W. Dijkstra, C.S. Scholten, <I>Predicate Calculus and Program Semantics</P>
+</I><P>Springer-Verlag, ISBN: 0-387-96957-8, 1990</FONT></TD>
+</TR>
+</TABLE>
+
+<FONT FACE="Arial" SIZE=4><P>&nbsp;</P>
+<P><A NAME="DistribucionTemporal"></A>Distribuci&oacute;n Temporal</P>
+</FONT><FONT SIZE=2><P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="JUSTIFY">A continuaci&oacute;n se presenta una distribuci&oacute;n temporal del programa. La asignatura consta de 6 cr&eacute;ditos equivalentes a unas 60 horas aproximadamente. El curso se ha dividido en 2 parciales, en el primer parcial se imparten los dos primeros temas en unas 27 horas, y en el segundo parcial, los 3 siguientes en unas 33 horas. La distribuci&oacute;n debe considerarse de una forma flexible ya que durante la impartici&oacute;n del curso pueden aparecer retrasos o desviaciones eventuales. </P>
+<P>&nbsp;</P>
+</FONT><FONT SIZE=4><P>Primer Parcial (27h)</P></FONT>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=4 WIDTH=655>
+<TR><TD WIDTH="24%" VALIGN="TOP">
+<P><FONT SIZE=4>&nbsp;</FONT><FONT SIZE=2>1.- Introducci&oacute;n</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<FONT SIZE=2><P>30'</FONT></TD>
+<TD WIDTH="20%" VALIGN="TOP" COLSPAN=2>
+<P>&nbsp;</TD>
+<TD WIDTH="46%" VALIGN="TOP" COLSPAN=13>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" ROWSPAN=3>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>Definici&oacute;n</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>10'</FONT></TD>
+<TD WIDTH="39%" VALIGN="TOP" COLSPAN=12>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>Evoluci&oacute;n</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>15'</FONT></TD>
+<TD WIDTH="39%" VALIGN="TOP" COLSPAN=12>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>Aplicaciones</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>5'</FONT></TD>
+<TD WIDTH="39%" VALIGN="TOP" COLSPAN=12>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP">
+<FONT SIZE=2><P>2.- L&oacute;gica Proposicional</FONT></TD>
+<TD WIDTH="16%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>23h 30'</FONT></TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="46%" VALIGN="TOP" COLSPAN=13>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" ROWSPAN=2>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>Definici&oacute;n</FONT></TD>
+<TD WIDTH="14%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+<TD WIDTH="32%" VALIGN="TOP" COLSPAN=10 ROWSPAN=2>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>Sintaxis</FONT></TD>
+<TD WIDTH="14%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>3h 20'</FONT></TD>
+</TR>
+<TR><TD WIDTH="54%" VALIGN="TOP" COLSPAN=4 ROWSPAN=3>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Alfabeto</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>5'</FONT></TD>
+<TD WIDTH="15%" VALIGN="TOP" COLSPAN=5 ROWSPAN=3>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>F&oacute;rmulas Proposicionales</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>15'</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Formalizaci&oacute;n de frases</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>3h</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>M&eacute;todos Sem&aacute;nticos</FONT></TD>
+<TD WIDTH="18%" VALIGN="TOP" COLSPAN=4>
+<FONT SIZE=2><P>10h 30'</FONT></TD>
+<TD WIDTH="28%" VALIGN="TOP" COLSPAN=9>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="54%" VALIGN="TOP" COLSPAN=4 ROWSPAN=6>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Interpretaci&oacute;n</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+<TD WIDTH="13%" VALIGN="TOP" COLSPAN=4 ROWSPAN=6>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Valor de una f&oacute;rmula</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Clasificaci&oacute;n de f&oacute;rmulas</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Equivalencia L&oacute;gica</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Razonamientos y Consecuencia L&oacute;gica</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>T&eacute;cnicas de Estudio de Razonamientos</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>4h</FONT></TD>
+</TR>
+<TR><TD WIDTH="72%" VALIGN="TOP" COLSPAN=8 ROWSPAN=4>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="17%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Tablas de Verdad</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="17%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>&Aacute;rboles Sem&aacute;nticos</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>20'</FONT></TD>
+</TR>
+<TR><TD WIDTH="17%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Contradicci&oacute;n</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="17%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Resoluci&oacute;n proposicional</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>6h</FONT></TD>
+</TR>
+<TR><TD WIDTH="75%" VALIGN="TOP" COLSPAN=9 ROWSPAN=5>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="18%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Formas Normales</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="18%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Algoritmo</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="18%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Consistencia</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="18%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Completud *</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>1h 30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="18%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Estrategias</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP">
+<FONT SIZE=2><P>2h</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>Aplicaci&oacute;n: &Aacute;lgebra de Boole</FONT></TD>
+<TD WIDTH="14%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>6h 30'</FONT></TD>
+<TD WIDTH="23%" VALIGN="TOP" COLSPAN=8>
+<P>&nbsp;</TD>
+<TD WIDTH="9%" VALIGN="TOP" COLSPAN=2 ROWSPAN=6>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="54%" VALIGN="TOP" COLSPAN=4 ROWSPAN=5>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Definici&oacute;n y Postulados</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP">
+<FONT SIZE=2><P>20'</FONT></TD>
+<TD WIDTH="7%" VALIGN="TOP" COLSPAN=4 ROWSPAN=5>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Teoremas</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP">
+<FONT SIZE=2><P>2h</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Funciones Booleanas</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP">
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Formas can&oacute;nicas</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP">
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Minimizaci&oacute;n</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP">
+<FONT SIZE=2><P>3h</FONT></TD>
+</TR>
+<TR><TD WIDTH="79%" VALIGN="TOP" COLSPAN=10>
+<P>&nbsp;</TD>
+<TD WIDTH="12%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>M&eacute;todo de Karnaugh</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>3h</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>M&eacute;todos Axiom&aacute;ticos</FONT></TD>
+<TD WIDTH="10%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>3h</FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP" COLSPAN=11>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="54%" VALIGN="TOP" COLSPAN=4>
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP" COLSPAN=6>
+<FONT SIZE=2><P>Deducci&oacute;n Natural</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>3h</FONT></TD>
+<TD WIDTH="13%" VALIGN="TOP" COLSPAN=4>
+<P>&nbsp;</TD>
+</TR>
+</TABLE>
+
+<FONT SIZE=2><P>&nbsp;</P>
+</FONT><FONT SIZE=4><P>Segundo Parcial (33h)</P>
+<P>&nbsp;</P></FONT>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=4 WIDTH=590>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<P><FONT SIZE=2>3.- L&oacute;gica de Predicados de Primer Orden</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP">
+<FONT SIZE=2><P>19h</FONT></TD>
+<TD WIDTH="65%" VALIGN="TOP" COLSPAN=19>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" ROWSPAN=2>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Definici&oacute;n y Justificaci&oacute;n</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+<TD WIDTH="36%" VALIGN="TOP" COLSPAN=12 ROWSPAN=2>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Sintaxis</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>5h 20'</FONT></TD>
+</TR>
+<TR><TD WIDTH="55%" VALIGN="TOP" COLSPAN=6 ROWSPAN=7>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>Alfabeto</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>5'</FONT></TD>
+<TD WIDTH="14%" VALIGN="TOP" COLSPAN=3 ROWSPAN=7>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>T&eacute;rmino</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>&Aacute;tomo</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>F&oacute;rmula</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>15'</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>&Aacute;mbito: Variables libres/ligadas</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>Formalizaci&oacute;n</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>4h</FONT></TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>Otros &Oacute;rdenes</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>20'</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>M&eacute;todos Sem&aacute;nticos</FONT></TD>
+<TD WIDTH="15%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>12h 30'</FONT></TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=10>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="51%" VALIGN="TOP" COLSPAN=5 ROWSPAN=7>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Interpretaci&oacute;n</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>20'</FONT></TD>
+<TD WIDTH="22%" VALIGN="TOP" COLSPAN=7 ROWSPAN=6>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Valor de una f&oacute;rmula</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>2h</FONT></TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Clasificaci&oacute;n</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>5'</FONT></TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Equivalencia</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Consecuencia</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>5'</FONT></TD>
+</TR>
+<TR><TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>T&eacute;cnicas de Estudio de Razonamientos</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>9h 30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="8%" VALIGN="TOP" COLSPAN=2>
+<P>&nbsp;</TD>
+<TD WIDTH="23%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>Resoluci&oacute;n General</FONT></TD>
+<TD WIDTH="18%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>9h 30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="76%" VALIGN="TOP" COLSPAN=13 ROWSPAN=5>
+<P>&nbsp;</TD>
+<TD WIDTH="16%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Formas Normales</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P>3h</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Substituci&oacute;n</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Unificaci&oacute;n</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P>1h 30'</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Algoritmo</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P>3h</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Estrategias</FONT></TD>
+<TD WIDTH="8%" VALIGN="TOP">
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>M&eacute;todos Axiom&aacute;ticos*</FONT></TD>
+<TD WIDTH="15%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>2h</FONT></TD>
+<TD WIDTH="30%" VALIGN="TOP" COLSPAN=10>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="51%" VALIGN="TOP" COLSPAN=5>
+<P>&nbsp;</TD>
+<TD WIDTH="23%" VALIGN="TOP" COLSPAN=7>
+<FONT SIZE=2><P>Deducci&oacute;n Natural*</FONT></TD>
+<TD WIDTH="5%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>2h</FONT></TD>
+<TD WIDTH="22%" VALIGN="TOP" COLSPAN=7>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<FONT SIZE=2><P>4.- L&oacute;gica Aplicada a la Inform&aacute;tica</FONT></TD>
+<TD WIDTH="19%" VALIGN="TOP" COLSPAN=3>
+<FONT SIZE=2><P>12h</FONT></TD>
+<TD WIDTH="38%" VALIGN="TOP" COLSPAN=13>
+<P>&nbsp;</TD>
+<TD WIDTH="16%" VALIGN="TOP" COLSPAN=4 ROWSPAN=2>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Programaci&oacute;n L&oacute;gica</FONT></TD>
+<TD WIDTH="12%" VALIGN="TOP" COLSPAN=4>
+<FONT SIZE=2><P>7h</FONT></TD>
+<TD WIDTH="17%" VALIGN="TOP" COLSPAN=7>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="55%" VALIGN="TOP" COLSPAN=6 ROWSPAN=2>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>Resoluci&oacute;n SLD</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP" COLSPAN=4>
+<FONT SIZE=2><P>3h</FONT></TD>
+<TD WIDTH="11%" VALIGN="TOP" COLSPAN=2 ROWSPAN=2>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="24%" VALIGN="TOP" COLSPAN=9>
+<FONT SIZE=2><P>Lenguaje Prolog</FONT></TD>
+<TD WIDTH="9%" VALIGN="TOP" COLSPAN=4>
+<FONT SIZE=2><P>4h</FONT></TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Verificaci&oacute;n de Programas</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>5h</FONT></TD>
+<TD WIDTH="39%" VALIGN="TOP" COLSPAN=13>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP">
+<FONT SIZE=2><P>5.- Otras L&oacute;gicas</FONT></TD>
+<TD WIDTH="14%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>2h </FONT></TD>
+<TD WIDTH="60%" VALIGN="TOP" COLSPAN=18>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="26%" VALIGN="TOP" ROWSPAN=7>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</TD>
+<TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Orden Superior</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>5'</FONT></TD>
+<TD WIDTH="39%" VALIGN="TOP" COLSPAN=13 ROWSPAN=7>
+<P>&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Identidad</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Relaciones</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>5'</FONT></TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Modal</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Temporal</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>20'</FONT></TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Polivalente</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>10'</FONT></TD>
+</TR>
+<TR><TD WIDTH="29%" VALIGN="TOP" COLSPAN=5>
+<FONT SIZE=2><P>Borrosa</FONT></TD>
+<TD WIDTH="6%" VALIGN="TOP" COLSPAN=2>
+<FONT SIZE=2><P>1h</FONT></TD>
+</TR>
+</TABLE>
+
+<P>&nbsp;</P></BODY>
+</HTML>

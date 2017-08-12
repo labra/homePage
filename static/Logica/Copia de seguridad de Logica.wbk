@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Lógica</TITLE>
+<META NAME="Template" CONTENT="D:\Archivos de programa\Microsoft Office\Office\html.dot">
+</HEAD>
+<BODY TEXT="#000000" LINK="#0000ff" VLINK="#800080" BACKGROUND="../Images/BackGreys.GIF">
+
+<H1 ALIGN="CENTER">LOGICA</H1>
+<H3>Profesores: <A HREF="Welcome.html">Jose Emilio Labra Gayo</A>, <A HREF="mailto:anaisabel@lsi.uniovi.es">Ana Isabel Fern&aacute;ndez Garc&iacute;a</A></H3>
+<P>Asignatura del plan nuevo de la <A HREF="http://www15.uniovi.es/"><I>Escuela Universitaria de Inform&aacute;tica</I></A> en la <A HREF="http://www3.uniovi.es/">Universidad de Oviedo</A>. <BR>
+&nbsp; </P>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" WIDTH=624>
+<TR><TD VALIGN="MIDDLE" BGCOLOR="#ffff00">
+
+<UL>
+<LI><A HREF="#Objetivos">Objetivos</A> </LI>
+<LI><A HREF="#Evaluaci&oacute;n">Evaluaci&oacute;n</A> </LI>
+<LI><A HREF="Programa9899.html">Programa Detallado</A></TD>
+<TD VALIGN="MIDDLE" BGCOLOR="#ffff00">
+<LI><A HREF="#Estadisticas">Estad&iacute;sticas</A> </LI>
+<LI><A HREF="LogiCom.html">Comentarios de alumnos de cursos anteriores</A> </LI>
+<LI><A HREF="#MasInfo">M&aacute;s Informaci&oacute;n</A></LI>
+<LI><A HREF="#Sugerencias">Sugerencias</A> </UL>
+</TD>
+</TR>
+</TABLE>
+
+<P ALIGN="CENTER">&nbsp;</P><DIR>
+
+<B><FONT SIZE=4><P><A NAME="Objetivos"></A>Objetivos:</P></DIR>
+
+
+<UL>
+</B></FONT><LI>Proporcionar unos conocimientos b&aacute;sicos de l&oacute;gica matem&aacute;tica que sirvan de base al alumno para introducirse en campos espec&iacute;ficos de la inform&aacute;tica como: teor&iacute;a de circuitos l&oacute;gicos, an&aacute;lisis de algoritmos, verificaci&oacute;n de programas, sistemas de especificaci&oacute;n formal, programaci&oacute;n l&oacute;gica, sistemas expertos, l&oacute;gica difusa, etc. <BR>
+Un objetivo m&aacute;s global consiste en proporcionar al alumno unas bases adecuadas para la adquisici&oacute;n de una capacidad de razonamiento l&oacute;gico &uacute;til en cualquier disciplina.</LI></UL>
+<DIR>
+
+<B><FONT SIZE=4><P><A NAME="Evaluación"></A>Evaluaci&oacute;n:</P></DIR>
+
+
+<UL>
+</B></FONT><LI>La evaluaci&oacute;n consistir&aacute; en un examen parcial y un examen final en Junio. La nota del parcial s&oacute;lo se conservar&aacute; para la convocatoria de Junio. Dependiendo del desarrollo del curso, se estudiar&aacute; la posibilidad de realizar un segundo parcial. </LI></UL>
+<DIR>
+<DIR>
+
+<P>A lo largo del curso se propondr&aacute;n una serie de pr&aacute;cticas obligatorias de programaci&oacute;n en lenguaje Prolog, cuya realizaci&oacute;n es necesaria para superar la asignatura</P></DIR>
+</DIR>
+
+<P><A NAME="Programa"></A></P>
+<P><HR></P>
+<H3><A NAME="Estadisticas"></A>Estad&iacute;sticas</H3>
+
+<UL>
+<FONT SIZE=2><LI>En construcci&oacute;n</FONT> </LI></UL>
+
+<P><HR></P>
+<H3><A NAME="MasInfo"></A>M&aacute;s Informaci&oacute;n</H3>
+<P>P&aacute;gina de J. Labra sobre <A HREF="../Logic.html">L&oacute;gica</A> (En Ingl&eacute;s)</P>
+<P>P&aacute;gina de J. Labra sobre <A HREF="../FuncProg.html">P. Funcional y lenguages de programaci&oacute;n relacionados</A> (En Ingl&eacute;s)</P>
+<P ALIGN="CENTER"><HR></P>
+<H3><A NAME="Sugerencias"></A>Sugerencias</H3>
+
+<UL>
+<LI>Si tienes alguna duda o sugerencia puedes enviarme un mensaje a: <A HREF="mailto:labra@lsi.uniovi.es"><FONT SIZE=2>labra@lsi.uniovi.es</FONT></A><FONT SIZE=2> o a </FONT><A HREF="mailto:anaisabel@lsi.uniovi.es"><FONT SIZE=2>anaisabel@lsi.uniovi.es</FONT></A> </LI></UL>
+</BODY>
+</HTML>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Curso de Máster</title>
+<link rel="stylesheet" href="../cursos.css" />
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+</head>
+<body>
+<h1 class="header">Tecnologías Web</h1>
+Curso impartido dentro del 
+ <a href="http://www.mti.cl/">Máster en Tecnologías de la Información</a> en la
+ <a href="http://www.utfsm.cl/">Universidad Técnica Federico Santa María</a>
+
+<h2>Material del curso</h2>
+
+<ul>
+<li><a href="PPS/XML.pps">Lenguaje XML</a></li>
+<li><a href="PPS/ServWeb.pps">Servicios Web</a></li>
+<li><a href="PPS/SemWeb.pps">Web Semántica</a></li>
+</ul>
+
+</body>
+</html>

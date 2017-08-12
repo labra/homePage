@@ -1,0 +1,98 @@
+address {	text-align: right;
+		font-size: small ;
+		font-family: "Flemish Script", serif;
+		color: maroon; 
+	}
+
+body { 	margin-left: 4% ; 
+	margin-right:4% ; 
+	background:  white;
+	color: black;
+	font-family: Verdana, sans-serif;
+	}
+
+p { 	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: Verdana, sans-serif;
+  }
+
+p.note {	text-indent: 0em;
+		background: rgb(255,255,204) ; 
+		color: rgb(10,10,50);
+		padding: 1em ;
+		border: none ;
+ 	}
+
+h1 { 	color: 	    rgb(0,0,153) ;
+        font-family: Garamond, serif; }
+
+h1.header { 	
+		background: white ; 
+		font-size: 250%; 
+	}
+
+h2 {	color: rgb(50,30,90);
+	margin-left: -4% ; 
+   }
+
+h3,h4,h5,h6 { 	margin-left: -2%; 
+	} 
+
+div.center { 	text-align: center; 
+	}
+
+div.right  { 	text-align: right; 
+	}
+
+a.code  { 	font-family: "Courier New", monospace; 
+	}
+
+a.emph  { font-style: italic}
+
+dl {	margin-left: 8%  ; 
+		margin-right: 8% ;
+	}
+
+dt	{ margin-top: 2em;
+	  color: rgb(0,0,20) ;
+	}
+
+span.item { color: rgb(0,0,153) ; }
+
+div.header p {
+  margin: 0; 
+  padding: 0.3em 0.4em;
+  font-family: Arial, sans-serif;
+  background: rgb(245,225,245);
+  border: thin outset #900;
+}
+
+div.header em { color: green }
+div.header a:link { text-decoration: none; color: green; }
+div.header a:visited { text-decoration: none; color: green; }
+div.header a:hover { background: red; color: white }
+
+table.header { border: none; 
+	           background-color: White;
+	         }
+
+table.programa 
+      { background-color: rgb(250,230,200);
+	    table-layout: fixed;
+	  }
+
+td.programa	{ border: inset 1pt; 
+	    font-size: smaller;
+	    text-indent: 0px;
+	    }
+
+td.alumno
+       { border: inset 1pt; 
+	    font-size: smaller;
+	    text-indent: 0px;
+	    }
+
+.inTable { text-indent: 0px; 
+	       font-style: italic; 
+	       text-align: center; 
+	     }	    

@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta content="text/css; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="Author" content="Jose Emilio Labra Gayo">
+<link rel="stylesheet" href="idefix.css">
+<TITLE>IDEFIX</TITLE>
+
+<body>
+
+<table>
+<tr>
+<td><img height=175 width=215 src="Images/logoIdefix.gif">
+</td>
+<td> 
+ <h1 class="inTable">
+ Integrated 
+ Development 
+ Environment 
+ Frameworks based on 
+ Internet and 
+ eXtensible technologies
+ </h1>
+</td>
+</tr>
+</table>
+
+
+
+<table class="toc" summary="Table of Contents">
+<caption>Table of Contents</caption>
+<tr>
+<td><a href="#Introduction">Introduction</a></td>
+<td><a href="#People">Members</a></td>
+<td><a href="#Publications">Documents</a></td>
+</tr>
+<tr>
+<td><a href="#Software">Software</a></td>
+<td><a href="#Related">Related links</a></td>
+<td> <a href="#Contact">Contact info.</a></td>
+<td> </td>
+</tr>
+</table>
+
+<h2><a name="Introduction">Introduction</a></h2>
+
+
+IDEFIX is a research project held by the 
+<a href="http://www.di.uniovi.es/aplt/">Advanced Programming Languages and Technologies</a> group
+and the
+<a href="http://www.di.uniovi.es/%7Emartin/hci/Lab/index.htm">
+ Human Computer Interaction</a> group which both belong to the 
+<a href="http://www.uniovi.es/~oviedo3">Oviedo3</a> research group.
+
+The goal is to research in the development of interactive environments that facilitate 
+distance programming. 
+
+The main features of the system are:
+
+<ul>
+<li>Programming Language independence</li>
+<li>Adaptive interfaces to individual users</li>
+<li>Collaborative working environments</li>
+<li>On-line help and debugging</li>
+<li>Implementation based on web services</li>
+<li>Internationalization of information</li>
+<li>Automatic Assessment of user's work</li>
+<li>Compatibility with existing e-learning systems</li>
+</ul>
+
+<h2><a name="People">People</a></h2>
+
+<ul>
+<li><a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a> </li>
+<li><a href="http://www.di.uniovi.es/~cernuda">Agustín Cernuda del Río</a> </li>
+<li><a href="http://www.di.uniovi.es/~dani">Daniel Gayo Avello</a></li>
+<li>Juan Ramón Pérez Pérez </li>
+<li>Jose Manuel Morales</li>
+<li>Fernando Coll Fueyo</li>
+<li>Micaela Prior</li>
+<li><a href="http://www.rz.fh-ulm.de/~turrado/">Roberto Turrado Camblor</a></li>
+<li>Alfredo Jarero Silva</li>
+</ul>
+
+<h2><a name="Documents">Documents</a></h2>
+
+<h4>Papers and presentations</h4>
+
+<h4>Public specifications</h4>
+This section includes public specifications and documents developed by the IDEFIX team.
+These documents are only in english.
+
+<ul>
+<li>This list is empty</li>
+</ul>
+
+<h4>Local documents</h4>
+
+This section contains internal documents. Although these documents are public, they are
+not part of the IDEFIX main documentation. These documents should be written in english, but
+you can find some spanish documents also.
+
+<ul>
+<li>This list is empty</li>
+</ul>
+
+ 
+<h4>Private communications </h4>
+Private communications are accesible only to members of the IDEFIX project.
+These communications may be written both in english or spanish.
+
+<ul>
+<li>This list is empty</li>
+</ul>
+
+
+<h2><a name="Software">Software</a></h2>
+
+<ul>
+<li>This list is empty</li>
+</ul>
+
+
+<h2><a name="Related">Related links</a></h2>
+
+<ul>
+<li> Conferences 
+<ul>
+<li><a href="http://www2.cs.fau.de/HCC02/cfp.html">
+     2002 IEEE Symposia on Human Centric Computing Languages and Environments (HCC'02)
+    </a>
+</li>
+<li><a href="http://webepcc.unex.es/jenui2002/programa.htm">
+   Jornadas de Enseñanza Universitaria de Informática</a> (10-12 Julio 2002)
+</ul>
+</li>
+<li> Standards 
+<ul>
+<li><a href="http://www.w3c.org">
+     W3C web page</a></li>
+<li><a href="http://www.w3.org/AudioVideo/">
+     Synchronized Multimedia Integration Language</a></li>
+</ul>
+</li>
+
+<li> Misc.
+<ul>
+<li><a href="http://mobilix.org/mobilix_asterix.html">
+     Trademark Trouble: Asterix versus MobiliX</a>
+</li>     
+<li><a href="
+    http://lcg-www.uia.ac.be/~erikt/asterix/welcome.shtml#pages">
+    The International Asterix Page</a> 
+    (names of the 12 main characters in many languages, even Bable :) 
+</ul>
+</li>
+
+</ul>
+<h2><a name="Contact">Contact Info</a></h2>
+
+<pre>
+Jose Emilio Labra Gayo
+Department of Computer Science
+University of Oviedo
+C/ Calvo Sotelo S/N CP 33007
+Oviedo - Spain
+Phone: +34985103394
+Fax:   +34985103354
+Group mailing List: <a href="http://groups.yahoo.com/group/idefix/">http://groups.yahoo.com/group/idefix/</a>
+</pre>
+
+<A href="http://sourceforge.net"> 
+<IMG src="http://sourceforge.net/sflogo.php?group_id=43806" 
+     width="88" 
+     height="31" 
+     border="0" alt="SourceForge Logo">
+</A>
+
+
+<address> 
+ Author: <a href="http://lsi.uniovi.es/~labra">Jose Emilio Labra Gayo</a> <br>
+</address>		
+</body>

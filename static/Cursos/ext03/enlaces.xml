@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="enlaces.xsl"?>
+<enlaces>
+<enlace href="http://www.w3c.org" 
+        txt="Página del consorcio Web" />
+<enlace href="files/source.tar.gz" 
+        txt="Código con el que se han generado estas páginas (XML, CSS y XSLT)" />
+</enlaces>
+
+
